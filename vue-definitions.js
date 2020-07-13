@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Canada':198,'China':172,'Cities':172,'Delhi':166,'Flawed Democracies':172,'Germany':198,'India':172,'Japan':170,'Latvia':172,'Lima':172,'Locations':172,'Mexico':193,'Panama':117,'Spain':149,
-'default':199
+'Australia':171,'Canada':170,'Germany':170,'Japan':170,'Lima':23,'Mexico':166,'New Zealand':170,'Panama':89,'Peru':127,'Spain':121,'Sydney':171,
+'default':172
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -330,7 +330,7 @@ window.app = new Vue({
 			'Sao Paulo','New York','London','Tokyo','Dubai','Johannesburg','Sydney','Buenos Aires','Los Angeles','Paris','Shanghai','Istanbul','Lagos','Auckland','Bogota','Chicago','Berlin','Singapore','Riyadh','Casablanca','Santiago','Toronto','Milan','Hong Kong','Tel Aviv','Tunis','Melbourne','Caracas','Mexico City','Madrid','Mumbai','Cairo','Kampala','Wellington',
 			'Brazil','USA','United Kingdom','Japan','United Arab Emirates','SouthAfrica','Australia','Argentina','France','China','Turkey','Nigeria','New Zealand','Colombia','Mexico','Germany','Singapore','Saudi Arabia','Morocco','Chile','Canada','Italy','Israel','Tunisia','Taiwan','Venezuela', 'Spain','India','Egypt','Uganda'
 			]
-			const selectAll = ['Europe','Brazil','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian']
+			const selectAll = ['Europe','Brazil','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico']
 			if (this.selectedRegion == 'Locations')
 				{this.selectedCountries = ['Barnet','London','England','United Kingdom','Western Europe','European Union','Europe','World'];}
 			else if (selectAll.indexOf(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) > -1)
@@ -371,10 +371,10 @@ window.app = new Vue({
 		},
 
 		increment() {
-			if (this.day <= pausePoint(this.selectedRegion))
+			if (this.day <= pausePoint(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")))
 				{this.selectedTitle = "Confirmed Cases";}
-				else{this.selectedTitle = "Projected Cases";}
-			if (this.day == pausePoint(this.selectedRegion) && this.futurePause == true) {
+				else{this.selectedTitle = "Extrapolated Cases";}
+			if (this.day == pausePoint(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) && this.futurePause) {
 				this.paused = true;
 				this.futurePause = false;
 			}else if (this.day == this.dates.length || this.minDay < 0) {
@@ -385,7 +385,7 @@ window.app = new Vue({
 				this.futurePause = true;
 				if (!this.paused) {
 					this.day++;
-					setTimeout(this.increment, 50);
+					setTimeout(this.increment, 100);
 				}
 			}
 		},
@@ -428,7 +428,7 @@ window.app = new Vue({
 
 		layout() {
 			return {
-				title: "Coronavirus Trends<br><a style='color:#53abc8;font-size:medium;font-weight:bold' href='https://www.youtube.com/watch?v=54XLXg4fYsc'>explainer</a><span style='>&nbsp;<span style='color:#53abc8;font-size:medium'>|</span>&nbsp;<a style='color:#53abc8;font-size:medium' href='http://github.com/gerardbriscoe/corona/'>details</a>",
+				title: "Coronavirus Trends<br><a style='color:#53abc8;font-size:medium;font-weight:bold' href='https://www.youtube.com/watch?v=54XLXg4fYsc'>explainer</a><span style='>&nbsp;<span style='color:#53abc8;font-size:medium'>|</span>&nbsp;<a style='color:#53abc8;font-size:medium' href='https://github.com/coronatrends/coronatrends.github.io/blob/master/README.md'>details</a>",
 				showlegend: false,
 				autorange: false,
 				xaxis: {
@@ -438,7 +438,7 @@ window.app = new Vue({
 					titlefont: {size: 24,color: 'rgba(67, 171, 201,1)'},
 				},
 				yaxis: {
-					title: 'New Confirmed Cases (past week)',
+					title: 'New ' + this.selectedTitle + '(past week)',
 					type: this.selectedScale == 'Logarithmic Scale' ? 'log' : 'linear',
 					range: this.selectedScale == 'Logarithmic Scale' ? this.logyrange : this.linearyrange,
 					titlefont: {size: 24,color: 'rgba(67, 171, 201,1)'},
@@ -463,7 +463,7 @@ window.app = new Vue({
 				marker: {size: 4,color: 'rgba(0,0,0,0.15)'},
 				line: {color: 'rgba(0,0,0,0.15)'},
 				hoverinfo: 'x+y+text',
-				hovertemplate: '%{text}<br>Total ' + this.selectedData + ': %{x:,}<br>Weekly ' + this.selectedData + ': %{y:,}<extra></extra>',
+				hovertemplate: '%{text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<extra></extra>',
 			}));
 
 			// draws red dots (most recent data for each location)
@@ -476,7 +476,7 @@ window.app = new Vue({
 				legendgroup: i,
 				textposition: 'center right',
 				marker: {size: 6,color: 'rgba(254, 52, 110, 1)'},
-				hovertemplate: '%{data.text}<br>Total ' + this.selectedData + ': %{x:,}<br>Weekly ' + this.selectedData + ': %{y:,}<extra></extra>',
+				hovertemplate: '%{data.text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<extra></extra>',
 			}));
 
 			if (this.showTrendLine && this.doublingTime > 0) {
