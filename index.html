@@ -33,7 +33,7 @@
 <time class="h2" :datetime="formatDate(minDay &gt; 0 ? dates[day - 1] : dates[dates.length - 1])">{{ formatDate(minDay &gt; 0 ? dates[day - 1] : dates[dates.length - 1]) }}</time>
 </div>
 <div class="navelement slidercontainer">
-<input v-if="dates.length &gt; 7" type="range" :min="minDay &gt; 0 ? minDay : dates.length" :max="dates.length" step="1" v-model="day" class="slider" @mousedown="pause" aria-label="Choose the current observation day">
+<input v-if="dates.length &gt; 7" type="range" :min="minDay &gt; 0 ? minDay : dates.length" :max="dates.length" step="1" v-model="day" class="slider" @mousedown="pause" aria-label="Choose the current day">
 </div>
 </div>
 </main>
