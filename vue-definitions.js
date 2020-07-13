@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Austria':172,'Belgium':172,'Canada':170,'Czechia':172,'DEL':172,'Estonia':172,'France':172,'Germany':161,'Ireland':172,'Japan':170,'Latvia':172,'Lima':23,'Lithuania':172,'London':172,'Mexico':167,'Netherlands':1,'New Zealand':170,'Panama':89,'Peru':128,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
-'default':173
+
+'default':-3
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -582,7 +582,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3413995)','Brazil (1866176)','India (879487)','Russia (733699)','Peru (326326)','Chile (315041)','Spain (300988)','Mexico (299750)','UK (289603)','South Africa (276242)','Italy (243061)','Germany (199950)','France (170752)','Colombia (150445)','Canada (107590)','Argentina (100166)','China (83602)','Belgium (62707)','Netherlands (51022)','Panama (45633)','Poland (37891)','Switzerland (32883)','Ireland (25628)','Austria (18897)','Czechia (13174)','Australia (11644)','Estonia (2014)','Slovenia (1841)','New Zealand (1544)',
+		'USA (3413995)','Brazil (1866176)','India (879487)','Russia (733699)','Peru (326326)','Chile (315041)','Spain (300988)','Mexico (299750)','UK (289603)','South Africa (276242)','Italy (243061)','Germany (199950)','France (170752)','Colombia (150445)','Canada (107590)','Argentina (100166)','China (83602)','Belgium (62707)','Netherlands (51022)','Panama (45633)','Poland (38190)','Switzerland (32883)','Ireland (25628)','Austria (18948)','Czechia (13174)','Australia (11644)','Estonia (2014)','Slovenia (1841)','New Zealand (1544)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
