@@ -3,7 +3,7 @@
 
 var point = {
 
-'default':-3
+'default':173
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -582,7 +582,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3413995)','Brazil (1866176)','India (879487)','Russia (733699)','Peru (326326)','Chile (315041)','Spain (300988)','Mexico (299750)','UK (289603)','South Africa (276242)','Italy (243061)','Germany (199950)','France (170752)','Colombia (150445)','Canada (107590)','Argentina (100166)','China (83602)','Belgium (62707)','Netherlands (51022)','Panama (45633)','Poland (38190)','Switzerland (32883)','Ireland (25628)','Austria (18948)','Czechia (13174)','Australia (11644)','Estonia (2014)','Slovenia (1841)','New Zealand (1544)',
+		'USA (3414042)','Brazil (1866176)','India (879888)','Russia (733699)','Peru (326326)','Chile (315041)','Spain (300988)','Mexico (299750)','UK (289603)','South Africa (276242)','Italy (243061)','Germany (199968)','France (170752)','Colombia (150445)','Canada (107590)','Argentina (100166)','China (83602)','Belgium (62707)','Netherlands (51022)','Panama (45633)','Poland (38190)','Switzerland (32883)','Ireland (25628)','Austria (18948)','Czechia (13174)','Australia (11644)','Estonia (2014)','Slovenia (1849)','New Zealand (1544)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
