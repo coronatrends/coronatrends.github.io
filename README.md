@@ -4,7 +4,7 @@ This graph aims to show the trend of the Coronavirus (COVID-19) in key cities ar
 
 ## Graph
 
-Modified version of the graph created by [Aatish Bhatia](https://aatishb.com/covidtrends/) in collaboration with [Minute Physics](https://www.youtube.com/user/minutephysics). This graph was chosen as it effectively represents **exponential growth** trends, which is perhaps the most [challenging aspect of pandemics](https://www.youtube.com/watch?v=Kas0tIxDvrg). The short explainer video is a clip from the Minute Physics [explainer video] (https://www.youtube.com/watch?v=54XLXg4fYsc).
+Modified version of the graph created by [Aatish Bhatia](https://aatishb.com/covidtrends/) in collaboration with [Minute Physics](https://www.youtube.com/user/minutephysics). This graph was chosen as it effectively represents **exponential growth** trends, which is perhaps the most [challenging aspect of pandemics](https://www.youtube.com/watch?v=Kas0tIxDvrg). The short explainer video is a clip from the Minute Physics [explainer video](https://www.youtube.com/watch?v=54XLXg4fYsc).
 
 ## Views
 
@@ -28,19 +28,19 @@ The graph by design does not show locations that are yet to reach 50 cases, so a
 
 ### Countries
 
-A plot for the European Union (EU) and the World was added to the original graph. The countries used for calculating the EU includes those with free movement via the European Economic Area (EEA). This includes the European Free Trade Association (EFTA) states of Iceland, Liechtenstein, Norway, Switzerland; and the United Kingdom (UK) that remains a member during the transition period of Brexit.
+A plot for the European Union (EU) and the World was added to the original graph. The countries used for calculating the EU includes those with free movement via the European Economic Area (EEA). This includes the European Free Trade Association (EFTA) states of Iceland, Liechtenstein, Norway, Switzerland; and the United Kingdom (UK) that remains a member during the transition period of Brexit. I also added combined plots for referenced regions, including the Balkans and Latin America.
 
 ### Regions
 
-A plot for the 7 regions of the World, 6 continents model plus the Middle East as a distinct cultural region. Russia is split across Europe and Asia proportionally according to population, resulting in roughly 70% of cases assigned to Europe and 30% assigned to Asia. 
+A plot for the 7 regions of the World, 6 continents model plus the Middle East as a distinct cultural region. Russia is split across Europe and Asia proportionally according to the available data. 
 
 ### National
 
 The plots for China, United States, Canada, Australia were modified to include available cities, regions and the World to provide greater context. A plot for the UK was also added, but Northern Ireland could not be included as no time series could be found or constructed.
 
-### London
+### City
 
-A plot of the boroughs of London, which includes London as a whole to provide context.
+A plot of the boroughs oro ther administrative divisions of avilable cities, which includes city istself as a whole to provide context.
 
 ### Locations
 
@@ -77,4 +77,6 @@ A plot of countries grouped by their governance model, based upon the [Economist
 	* and UK's [Public Health England](https://coronavirus.data.gov.uk/), [Public Health Scotland](https://www.gov.scot/publications/coronavirus-covid-19-trends-in-daily-data/) and [Public Health Wales](https://phw.nhs.wales/topics/latest-information-on-novel-coronavirus-covid-19/coronavirus-grid-links/coronavirus-covid-19-data-dashboard-desktop-view/).
 * London Data comes from [Public Health England](https://coronavirus.data.gov.uk/).
 * Locations Data is an amalgamation of the above data sources.
-* Governance Data was calculated from the Countries Data.
+* Governance Data is calculated from the Countries Data.
+* Blue, red and purple states in the US view is based upon their respective [legislatures](https://en.wikipedia.org/wiki/List_of_United_States_state_legislatures).
+* Extrapolated cases are calculated based upon [covid19-dash](https://covid19-dash.github.io), as defined [here](https://covid19-dash.github.io/modeling_short.html).
