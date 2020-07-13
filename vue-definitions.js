@@ -1,5 +1,5 @@
 "use strict";
-// custom graph component
+//custom graph component
 
 var point = {
 'Canada':198,'China':172,'Cities':172,'Delhi':166,'Flawed Democracies':172,'Germany':198,'India':172,'Japan':170,'Latvia':172,'Lima':172,'Locations':172,'Mexico':193,'Panama':117,'Spain':149,
