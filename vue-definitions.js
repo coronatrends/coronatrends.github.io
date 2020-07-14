@@ -330,7 +330,7 @@ window.app = new Vue({
 			'Sao Paulo','New York','London','Tokyo','Dubai','Johannesburg','Sydney','Buenos Aires','Los Angeles','Paris','Shanghai','Istanbul','Lagos','Auckland','Bogota','Chicago','Berlin','Singapore','Riyadh','Casablanca','Santiago','Toronto','Milan','Hong Kong','Tel Aviv','Tunis','Melbourne','Caracas','Mexico City','Madrid','Mumbai','Cairo','Kampala','Wellington',
 			'Brazil','USA','United Kingdom','Japan','United Arab Emirates','SouthAfrica','Australia','Argentina','France','China','Turkey','Nigeria','New Zealand','Colombia','Mexico','Germany','Singapore','Saudi Arabia','Morocco','Chile','Canada','Italy','Israel','Tunisia','Taiwan','Venezuela', 'Spain','India','Egypt','Uganda'
 			]
-			const selectAll = ['Europe','Brazil','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico']
+			const selectAll = ['Europe','Brazil','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria']
 			if (this.selectedRegion == 'Locations')
 				{this.selectedCountries = ['Barnet','London','England','United Kingdom','Western Europe','European Union','Europe','World'];}
 			else if (selectAll.indexOf(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) > -1)
@@ -582,7 +582,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3479483)','Brazil (1887959)','India (907645)','Russia (733699)','Peru (330123)','Chile (317657)','Mexico (304435)','UK (290133)','South Africa (287796)','Italy (243230)','Germany (200436)','France (172377)','Colombia (154277)','Canada (108155)','Argentina (103265)','China (83605)','Belgium (62707)','Netherlands (51093)','Poland (38190)','Switzerland (32946)','Ireland (25638)','Austria (18948)','Czechia (13238)','Australia (11915)','Estonia (2014)','Slovenia (1849)','New Zealand (1545)',
+		'USA (3479483)','Brazil (1887959)','India (907645)','Russia (733699)','Peru (330123)','Chile (317657)','Mexico (304435)','UK (290133)','South Africa (287796)','Italy (243230)','Germany (200436)','France (172377)','Colombia (154277)','Canada (108155)','Argentina (103265)','China (83605)','Belgium (62707)','Netherlands (51093)','Poland (38190)','Nigeria (33153)','Switzerland (32946)','Ireland (25638)','Austria (18948)','Czechia (13238)','Australia (11915)','Estonia (2014)','Slovenia (1849)','New Zealand (1545)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
