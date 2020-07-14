@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Austria':172,'Belgium':172,'Canada':172,'Czechia':172,'Estonia':172,'Ireland':172,'Japan':170,'Latvia':172,'Lima':172,'Lithuania':172,'London':172,'Mexico':167,'Netherlands':172,'New Zealand':170,'Panama':89,'Peru':172,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
+'Austria':172,'Belgium':172,'Czechia':172,'Estonia':172,'Ireland':172,'Japan':170,'Latvia':172,'Lima':172,'Lithuania':172,'London':172,'Mexico':167,'Netherlands':172,'New Zealand':170,'Panama':89,'Peru':172,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
 'default':173
 };
 
@@ -582,7 +582,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3475387)','Brazil (1884967)','India (907645)','Russia (733699)','Peru (330123)','Chile (317657)','Mexico (299750)','UK (290133)','South Africa (287796)','Italy (243230)','Germany (200436)','France (172377)','Colombia (154277)','Canada (107807)','Argentina (103265)','China (83602)','Belgium (62707)','Netherlands (51093)','Poland (38190)','Switzerland (32946)','Ireland (25638)','Austria (18948)','Czechia (13238)','Australia (11644)','Estonia (2014)','Slovenia (1849)','New Zealand (1544)',
+		'USA (3478415)','Brazil (1887959)','India (907645)','Russia (733699)','Peru (330123)','Chile (317657)','Mexico (299750)','UK (290133)','South Africa (287796)','Italy (243230)','Germany (200436)','France (172377)','Colombia (154277)','Canada (108093)','Argentina (103265)','China (83602)','Belgium (62707)','Netherlands (51093)','Poland (38190)','Switzerland (32946)','Ireland (25638)','Austria (18948)','Czechia (13238)','Australia (11644)','Estonia (2014)','Slovenia (1849)','New Zealand (1544)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
