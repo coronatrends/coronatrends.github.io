@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Austria':172,'Belgium':172,'Czechia':172,'Estonia':172,'Ireland':172,'Japan':170,'Latvia':172,'Lithuania':172,'London':172,'Mexico':167,'Netherlands':172,'New Zealand':170,'Panama':89,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
-'default':173
+'Austria':172,'Belgium':172,'Canada':173,'Czechia':172,'Estonia':172,'Ireland':172,'Japan':170,'Latvia':172,'Lima':173,'Lithuania':172,'London':172,'Mexico':168,'Netherlands':172,'New Zealand':170,'Panama':89,'Peru':173,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
+'default':174
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
