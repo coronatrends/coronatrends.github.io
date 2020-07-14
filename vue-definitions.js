@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Austria':172,'Belgium':172,'Canada':173,'Czechia':172,'Estonia':172,'Ireland':172,'Japan':170,'Latvia':172,'Lima':173,'Lithuania':172,'London':172,'Mexico':168,'Netherlands':172,'New Zealand':170,'Panama':89,'Peru':173,'Poland':172,'Slovenia':172,'South Africa':172,'South Korea':172,'Spain':121,'Sweden':172,'Switzerland':172,
+'Japan':172,'Lima':173,'London':172,'Mexico':168,'New Zealand':170,'Panama':89,'Peru':173,'Spain':121,
 'default':174
 };
 
@@ -582,11 +582,11 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3483362)','Brazil (1888889)','India (933450)','Russia (739947)','Peru (330123)','Chile (317657)','Mexico (304435)','UK (290133)','South Africa (287796)','Italy (243230)','Germany (200451)','France (172377)','Colombia (154277)','Canada (108155)','Argentina (103265)','China (83605)','Belgium (62781)','Netherlands (51146)','Poland (38457)','Nigeria (33153)','Switzerland (33016)','Ireland (25638)','Austria (19021)','Czechia (13238)','Australia (11915)','Estonia (2015)','Slovenia (1859)','New Zealand (1545)',
+		'USA (3491699)','Brazil (1888889)','India (933450)','Russia (739947)','Peru (330123)','Chile (319493)','Mexico (304435)','UK (290133)','South Africa (287796)','Italy (243344)','Germany (200451)','France (172377)','Colombia (154277)','Canada (108155)','Argentina (103265)','China (83605)','Belgium (62781)','Netherlands (51146)','Poland (38457)','Nigeria (33153)','Switzerland (33016)','Ireland (25638)','Austria (19021)','Czechia (13238)','Australia (11915)','Estonia (2015)','Slovenia (1859)','New Zealand (1545)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'Georgia','Massachusetts','Pennsylvania','North Carolina','Louisiana','Michigan','Maryland','Virginia','Ohio','Tennessee','South Carolina','Alabama','Indiana','Connecticut','Minnesota','Washington','Colorado','Wisconsin','Mississippi','Iowa','Missouri','Utah','Arkansas','Nevada','Nebraska','Oklahoma','Kansas','Kentucky','Rhode Island','New Mexico','Delaware','Oregon','Idaho','South Dakota','New Hampshire','North Dakota','West Virginia','Maine','Wyoming','Montana','Alaska','Vermont','Hawaii','Illinois','Arizona','New Jersey','New York','California (336037)','Florida (282435)','Texas (274712)',
+		'New York (428303)','California (336037)','Florida (282435)','Texas (274712)','New Jersey (181366)','Illinois (155931)','Arizona (128097)','Georgia (120569)','Massachusetts (111827)','Pennsylvania (100648)','North Carolina (89484)','Louisiana (79827)','Michigan (77198)','Maryland (74260)','Virginia (72443)','Ohio (66891)','Tennessee (65274)','South Carolina (58168)','Alabama (57218)','Indiana (52685)','Connecticut (47510)','Minnesota (43170)','Washington (42741)','Colorado (37242)','Wisconsin (36942)','Mississippi (36680)','Iowa (35830)','Missouri (30049)','Utah (30030)','Arkansas (28939)','Nevada (28515)','Oklahoma (21738)','Nebraska (21399)','Kansas (20241)','Kentucky (19653)','Rhode Island (17487)','New Mexico (15291)','Delaware (12879)','Oregon (12438)','Idaho (11402)','South Dakota (7524)','New Hampshire (6068)','North Dakota (4442)','West Virginia (4316)','Maine (3566)','Wyoming (1904)','Montana (1843)','Alaska (1539)','Vermont (1305)','Hawaii (1243)',
 		'-------------',
 		'London','Sydney','Seoul','Chicago','Lima',
 		'-------------',
