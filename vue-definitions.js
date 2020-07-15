@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Japan':172,'Lima':173,'London':172,'Mexico':168,'New Zealand':170,'Panama':89,'Peru':173,'Spain':121,
-'default':174
+'Acre':110,'Alagoas':110,'Amapa':110,'Amazonas':2,'Brazil':141,'Ceara':110,'Distrito Federal':110,'Espirito Santo':110,'Germany':174,'Goias':2,'Japan':173,'Lima':174,'London':172,'Maranhao':110,'Mato Grosso':141,'Mato Grosso Sul':110,'Mexico':169,'Minas Gerais':110,'New Zealand':170,'Panama':89,'Para':141,'Paraiba':110,'Parana':110,'Pernambuco':110,'Peru':174,'Piaui':110,'Rio Grande Norte':110,'Rio Grande Sul':2,'Rondonia':110,'Roraima':110,'Santa Catarina':110,'Sao Paulo State':110,'Sergipe':110,'Spain':121,'Tocantins':2,
+'default':175
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -463,7 +463,7 @@ window.app = new Vue({
 				marker: {size: 4,color: 'rgba(0,0,0,0.15)'},
 				line: {color: 'rgba(0,0,0,0.15)'},
 				hoverinfo: 'x+y+text',
-				hovertemplate: '%{text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<br>Daily AVGerage: '+'%{y}'.replace('7', 'X')+'<extra></extra>',
+				hovertemplate: '%{text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<extra></extra>',
 			}));
 
 			// draws red dots (most recent data for each location)
@@ -582,15 +582,13 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3549519)','Brazil (1933655)','India (956992)','Russia (746369)','Peru (333867)','Chile (319493)','Mexico (311486)','South Africa (298292)','UK (291373)','Italy (243344)','Germany (200766)','France (172377)','Colombia (159898)','Canada (108486)','Argentina (106910)','China (83611)','Sweden (76001)','Belgium (62872)','Netherlands (51252)','Poland (38721)','Nigeria (33616)','Switzerland (33148)','Ireland (25670)','Austria (19154)','Czechia (13341)','Australia (12155)','Estonia (2016)','Slovenia (1878)','New Zealand (1547)',
+		'USA (3580289)','Brazil (1939167)','India (968117)','Russia (746369)','Peru (333867)','Chile (321205)','Mexico (311486)','South Africa (298292)','UK (291911)','Italy (243506)','Germany (200895)','France (172377)','Colombia (159898)','Canada (108719)','Argentina (106910)','China (83611)','Sweden (76001)','Belgium (62872)','Netherlands (51252)','Poland (38721)','Nigeria (33616)','Switzerland (33148)','Ireland (25683)','Austria (19154)','Czechia (13421)','Australia (12155)','Estonia (2016)','Slovenia (1878)','New Zealand (1547)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (429278)','California (346445)','Florida (291629)','Texas (285772)','New Jersey (181773)','Illinois (156638)','Arizona (128097)','Georgia (123963)','Massachusetts (112130)','Pennsylvania (101360)','North Carolina (89643)','Louisiana (82051)','Michigan (77864)','Maryland (75016)','Virginia (73527)','Ohio (68059)','Tennessee (66788)','South Carolina (60389)','Alabama (57255)','Indiana (52685)','Connecticut (47530)','Washington (43577)','Minnesota (43170)','Wisconsin (37906)','Colorado (37686)','Mississippi (37542)','Iowa (36036)','Missouri (31209)','Utah (30478)','Arkansas (29733)','Nevada (29619)','Oklahoma (21738)','Nebraska (21717)','Kansas (20302)','Kentucky (20223)','Rhode Island (17588)','New Mexico (15514)','Delaware (13050)','Oregon (12805)','Idaho (11718)','South Dakota (7572)','New Hampshire (6091)','North Dakota (4493)','West Virginia (4463)','Maine (3578)','Montana (1952)','Wyoming (1951)','Alaska (1579)','Vermont (1305)','Hawaii (1264)',
+		'New York (429278)','California (347634)','Florida (301810)','Texas (285772)','New Jersey (181984)','Illinois (156638)','Arizona (131354)','Georgia (123963)','Massachusetts (112130)','Pennsylvania (101732)','North Carolina (91266)','Louisiana (84133)','Michigan (77864)','Maryland (75016)','Virginia (73527)','Ohio (69311)','Tennessee (66788)','South Carolina (62245)','Alabama (59067)','Indiana (53370)','Connecticut (47530)','Minnesota (43742)','Washington (43577)','Wisconsin (38727)','Mississippi (38567)','Colorado (37686)','Iowa (36262)','Missouri (31209)','Utah (30478)','Nevada (30468)','Arkansas (29733)','Oklahoma (22813)','Nebraska (21717)','Kansas (20302)','Kentucky (20223)','Rhode Island (17640)','New Mexico (15514)','Delaware (13050)','Oregon (12805)','Idaho (11718)','South Dakota (7572)','New Hampshire (6091)','North Dakota (4565)','West Virginia (4463)','Maine (3578)','Montana (2096)','Wyoming (1951)','Alaska (1579)','Vermont (1318)','Hawaii (1264)',
 		'-------------',
-		'Sao Paulo State (386607)','Ceara (139437)','Rio de Janeiro State (132822)','Bahia (110029)','Maranhao (101467)','Amazonas (85641)','Minas Gerais (78643)','Distrito Federal (73654)','Pernambuco (73576)','Espirito Santo (65213)','Paraiba (62462)','Alagoas (47005)','Santa Catarina (46050)','Parana (45363)','Para (45363)','Rio Grande Sul (40993)','Rio Grande Norte (40341)','Sergipe (39167)','Goias (37832)','Piaui (34156)','Amapa (31885)','Mato Grosso (29279)','Rondonia (27528)','Roraima (22968)','Acre (16479)','Tocantins (15723)','Mato Grosso Sul (13934)',
-		'-------------',
-		'London','Sydney','Seoul','Chicago','Lima',
+		'Sydney ()','Seoul ()','London ()','Lima ()','Chicago ()',
 		'-------------',
 		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
