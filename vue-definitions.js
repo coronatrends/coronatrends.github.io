@@ -463,7 +463,7 @@ window.app = new Vue({
 				marker: {size: 4,color: 'rgba(0,0,0,0.15)'},
 				line: {color: 'rgba(0,0,0,0.15)'},
 				hoverinfo: 'x+y+text',
-				hovertemplate: '%{text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<br>Daily Average: %{y:,}<extra></extra>',
+				hovertemplate: '%{text}<br>Total Cases: %{x:,}<br>Weekly Cases: %{y:,}<br>Daily AVGerage: '+'%{y}'.replace('7', 'X')+'<extra></extra>',
 			}));
 
 			// draws red dots (most recent data for each location)
@@ -582,11 +582,11 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3548546)','Brazil (1933655)','India (941630)','Russia (746369)','Peru (333867)','Chile (319493)','Mexico (311486)','South Africa (298292)','UK (291373)','Italy (243344)','Germany (200766)','France (172377)','Colombia (159898)','Canada (108486)','Argentina (106910)','China (83611)','Sweden (76001)','Belgium (62872)','Netherlands (51252)','Poland (38721)','Nigeria (33616)','Switzerland (33148)','Ireland (25670)','Austria (19154)','Czechia (13341)','Australia (12155)','Estonia (2016)','Slovenia (1878)','New Zealand (1547)',
+		'USA (3549519)','Brazil (1933655)','India (956992)','Russia (746369)','Peru (333867)','Chile (319493)','Mexico (311486)','South Africa (298292)','UK (291373)','Italy (243344)','Germany (200766)','France (172377)','Colombia (159898)','Canada (108486)','Argentina (106910)','China (83611)','Sweden (76001)','Belgium (62872)','Netherlands (51252)','Poland (38721)','Nigeria (33616)','Switzerland (33148)','Ireland (25670)','Austria (19154)','Czechia (13341)','Australia (12155)','Estonia (2016)','Slovenia (1878)','New Zealand (1547)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (429278)','California (346445)','Florida (291629)','Texas (285772)','New Jersey (181773)','Illinois (156638)','Arizona (128097)','Georgia (123963)','Massachusetts (112130)','Pennsylvania (101360)','North Carolina (89643)','Louisiana (82051)','Michigan (77864)','Maryland (74260)','Virginia (73527)','Ohio (68059)','Tennessee (66788)','South Carolina (60389)','Alabama (57255)','Indiana (52685)','Connecticut (47530)','Washington (43577)','Minnesota (43170)','Wisconsin (37906)','Colorado (37686)','Mississippi (37542)','Iowa (36036)','Missouri (31209)','Utah (30478)','Arkansas (29733)','Nevada (29619)','Oklahoma (21738)','Nebraska (21717)','Kansas (20302)','Kentucky (20223)','Rhode Island (17588)','New Mexico (15514)','Delaware (12969)','Oregon (12805)','Idaho (11718)','South Dakota (7572)','New Hampshire (6091)','North Dakota (4493)','West Virginia (4407)','Maine (3578)','Montana (1952)','Wyoming (1951)','Alaska (1579)','Vermont (1305)','Hawaii (1264)',
+		'New York (429278)','California (346445)','Florida (291629)','Texas (285772)','New Jersey (181773)','Illinois (156638)','Arizona (128097)','Georgia (123963)','Massachusetts (112130)','Pennsylvania (101360)','North Carolina (89643)','Louisiana (82051)','Michigan (77864)','Maryland (75016)','Virginia (73527)','Ohio (68059)','Tennessee (66788)','South Carolina (60389)','Alabama (57255)','Indiana (52685)','Connecticut (47530)','Washington (43577)','Minnesota (43170)','Wisconsin (37906)','Colorado (37686)','Mississippi (37542)','Iowa (36036)','Missouri (31209)','Utah (30478)','Arkansas (29733)','Nevada (29619)','Oklahoma (21738)','Nebraska (21717)','Kansas (20302)','Kentucky (20223)','Rhode Island (17588)','New Mexico (15514)','Delaware (13050)','Oregon (12805)','Idaho (11718)','South Dakota (7572)','New Hampshire (6091)','North Dakota (4493)','West Virginia (4463)','Maine (3578)','Montana (1952)','Wyoming (1951)','Alaska (1579)','Vermont (1305)','Hawaii (1264)',
 		'-------------',
 		'Sao Paulo State (386607)','Ceara (139437)','Rio de Janeiro State (132822)','Bahia (110029)','Maranhao (101467)','Amazonas (85641)','Minas Gerais (78643)','Distrito Federal (73654)','Pernambuco (73576)','Espirito Santo (65213)','Paraiba (62462)','Alagoas (47005)','Santa Catarina (46050)','Parana (45363)','Para (45363)','Rio Grande Sul (40993)','Rio Grande Norte (40341)','Sergipe (39167)','Goias (37832)','Piaui (34156)','Amapa (31885)','Mato Grosso (29279)','Rondonia (27528)','Roraima (22968)','Acre (16479)','Tocantins (15723)','Mato Grosso Sul (13934)',
 		'-------------',
