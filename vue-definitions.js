@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Acre':110,'Alagoas':110,'Amapa':110,'Amazonas':2,'Brazil':141,'Ceara':110,'Distrito Federal':110,'Espirito Santo':110,'Germany':174,'Goias':2,'Japan':173,'Lima':174,'London':172,'Maranhao':110,'Mato Grosso':141,'Mato Grosso Sul':110,'Mexico':169,'Minas Gerais':110,'New Zealand':170,'Panama':89,'Para':141,'Paraiba':110,'Parana':110,'Pernambuco':110,'Peru':174,'Piaui':110,'Rio Grande Norte':110,'Rio Grande Sul':2,'Rondonia':110,'Roraima':110,'Santa Catarina':110,'Sao Paulo State':110,'Sergipe':110,'Spain':121,'Tocantins':2,
-'default':175
+'Canada':175,'Japan':174,'Lima':175,'London':172,'Mexico':170,'New Zealand':170,'Panama':89,'Peru':175,'Spain':121,
+'default':176
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -582,13 +582,15 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3580289)','Brazil (1939167)','India (968117)','Russia (746369)','Peru (333867)','Chile (321205)','Mexico (311486)','South Africa (298292)','UK (291911)','Italy (243506)','Germany (200895)','France (172377)','Colombia (159898)','Canada (108719)','Argentina (106910)','China (83611)','Sweden (76001)','Belgium (62872)','Netherlands (51252)','Poland (38721)','Nigeria (33616)','Switzerland (33148)','Ireland (25683)','Austria (19154)','Czechia (13421)','Australia (12155)','Estonia (2016)','Slovenia (1878)','New Zealand (1547)',
+		'USA (3618739)','Brazil (1972072)','India (974737)','Russia (752797)','Peru (337724)','Chile (321205)','Mexico (317635)','South Africa (311049)','UK (291911)','Italy (243506)','Germany (201277)','France (173304)','Colombia (165169)','Argentina (111146)','Canada (108829)','China (83612)','Sweden (76492)','Belgium (63039)','Netherlands (51351)','Poland (39054)','Nigeria (34259)','Switzerland (33290)','Ireland (25683)','Austria (19270)','Czechia (13475)','Australia (12479)','Estonia (2016)','Slovenia (1897)','New Zealand (1548)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (429278)','California (347634)','Florida (301810)','Texas (285772)','New Jersey (181984)','Illinois (156638)','Arizona (131354)','Georgia (123963)','Massachusetts (112130)','Pennsylvania (101732)','North Carolina (91266)','Louisiana (84133)','Michigan (77864)','Maryland (75016)','Virginia (73527)','Ohio (69311)','Tennessee (66788)','South Carolina (62245)','Alabama (59067)','Indiana (53370)','Connecticut (47530)','Minnesota (43742)','Washington (43577)','Wisconsin (38727)','Mississippi (38567)','Colorado (37686)','Iowa (36262)','Missouri (31209)','Utah (30478)','Nevada (30468)','Arkansas (29733)','Oklahoma (22813)','Nebraska (21717)','Kansas (20302)','Kentucky (20223)','Rhode Island (17640)','New Mexico (15514)','Delaware (13050)','Oregon (12805)','Idaho (11718)','South Dakota (7572)','New Hampshire (6091)','North Dakota (4565)','West Virginia (4463)','Maine (3578)','Montana (2096)','Wyoming (1951)','Alaska (1579)','Vermont (1318)','Hawaii (1264)',
+		'New York (430277)','California (355285)','Florida (301810)','Texas (298007)','New Jersey (182094)','Illinois (157825)','Arizona (131354)','Georgia (127834)','Massachusetts (112347)','Pennsylvania (102361)','North Carolina (91487)','Louisiana (84133)','Michigan (78913)','Maryland (75016)','Virginia (73527)','Ohio (69371)','Tennessee (69061)','South Carolina (62245)','Alabama (59067)','Indiana (53370)','Connecticut (47636)','Washington (44350)','Minnesota (43742)','Wisconsin (38727)','Mississippi (38567)','Colorado (38155)','Iowa (36643)','Missouri (32155)','Utah (30891)','Nevada (30468)','Arkansas (30297)','Oklahoma (22813)','Nebraska (21979)','Kansas (21151)','Kentucky (20677)','Rhode Island (17640)','New Mexico (15841)','Oregon (13081)','Delaware (13050)','Idaho (12445)','South Dakota (7652)','New Hampshire (6113)','North Dakota (4565)','West Virginia (4557)','Maine (3578)','Montana (2096)','Wyoming (1985)','Alaska (1631)','Vermont (1318)','Hawaii (1292)',
 		'-------------',
-		'Sydney ()','Seoul ()','London ()','Lima ()','Chicago ()',
+		'Sao Paulo State (393176)','Tocantins (16031)',
+		'-------------',
+		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
 		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
