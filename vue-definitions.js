@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Japan':174,'Lima':175,'London':172,'Mexico':170,'New Zealand':170,'Panama':89,'Peru':175,'Spain':121,
-'default':176
+'Australia':176,'Canada':176,'Japan':175,'Lima':176,'London':172,'Maharashtra':176,'Mexico':171,'New Zealand':170,'Panama':89,'Peru':176,'Spain':121,'Sydney':176,
+'default':177
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -330,7 +330,7 @@ window.app = new Vue({
 			'Sao Paulo','New York','London','Tokyo','Dubai','Johannesburg','Sydney','Buenos Aires','Los Angeles','Paris','Shanghai','Istanbul','Lagos','Auckland','Bogota','Chicago','Berlin','Singapore','Riyadh','Casablanca','Santiago','Toronto','Milan','Hong Kong','Tel Aviv','Tunis','Melbourne','Caracas','Mexico City','Madrid','Mumbai','Cairo','Kampala','Wellington',
 			'Brazil','USA','United Kingdom','Japan','United Arab Emirates','SouthAfrica','Australia','Argentina','France','China','Turkey','Nigeria','New Zealand','Colombia','Mexico','Germany','Singapore','Saudi Arabia','Morocco','Chile','Canada','Italy','Israel','Tunisia','Taiwan','Venezuela', 'Spain','India','Egypt','Uganda'
 			]
-			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria']
+			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria','London']
 			if (this.selectedRegion == 'Locations')
 				{this.selectedCountries = ['Barnet','London','England','United Kingdom','Western Europe','European Union','Europe','World'];}
 			else if (selectAll.indexOf(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) > -1)
@@ -582,13 +582,13 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3695025)','Brazil (2014738)','India (1005637)','Russia (752797)','Peru (341586)','South Africa (324221)','Mexico (324041)','Chile (323698)','UK (292552)','Italy (243736)','Germany (201836)','France (173838)','Colombia (173206)','Argentina (114783)','Canada (109264)','China (83622)','Sweden (76877)','Belgium (63039)','Netherlands (51351)','Poland (39054)','Nigeria (34854)','Switzerland (33290)','Ireland (25698)','Austria (19270)','Czechia (13612)','Australia (12903)','Estonia (2016)','Slovenia (1897)','New Zealand (1549)',
+		'USA (3697318)','Brazil (2014738)','India (1010250)','Russia (759203)','Peru (341586)','South Africa (324221)','Mexico (324041)','Chile (323698)','UK (292552)','Italy (243736)','Germany (201931)','France (173838)','Colombia (173206)','Argentina (114783)','Canada (109264)','China (83622)','Sweden (76877)','Belgium (63238)','Netherlands (51351)','Poland (39407)','Nigeria (34854)','Switzerland (33382)','Ireland (25698)','Austria (19270)','Czechia (13612)','Australia (12905)','Estonia (2020)','Slovenia (1916)','New Zealand (1549)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (431380)','California (364554)','Florida (315775)','Texas (313060)','New Jersey (182532)','Illinois (159082)','Arizona (134613)','Georgia (131275)','Massachusetts (112581)','Pennsylvania (103169)','North Carolina (93561)','Louisiana (86411)','Michigan (79839)','Maryland (75664)','Virginia (74431)','Tennessee (71540)','Ohio (70601)','South Carolina (64083)','Alabama (61088)','Indiana (54080)','Connecticut (47750)','Washington (45559)','Minnesota (44347)','Mississippi (39797)','Wisconsin (39627)','Colorado (38726)','Iowa (37217)','Missouri (32155)','Nevada (31915)','Utah (31845)','Arkansas (31114)','Oklahoma (23441)','Nebraska (22134)','Kansas (21151)','Kentucky (21083)','Rhode Island (17711)','New Mexico (16138)','Oregon (13510)','Idaho (13133)','Delaware (13114)','South Dakota (7694)','New Hampshire (6139)','North Dakota (4668)','West Virginia (4657)','Maine (3598)','Montana (2231)','Wyoming (2026)','Alaska (1693)','Vermont (1325)','Hawaii (1311)',
+		'New York (431380)','California (364834)','Florida (315775)','Texas (313060)','New Jersey (182532)','Illinois (159082)','Arizona (134613)','Georgia (131275)','Massachusetts (112581)','Pennsylvania (103169)','North Carolina (93561)','Louisiana (86411)','Michigan (79839)','Maryland (75664)','Virginia (74431)','Tennessee (71540)','Ohio (70601)','South Carolina (64083)','Alabama (61088)','Indiana (54080)','Connecticut (47750)','Washington (45559)','Minnesota (44347)','Mississippi (39797)','Wisconsin (39627)','Colorado (38726)','Iowa (37494)','Missouri (33006)','Nevada (31915)','Utah (31845)','Arkansas (31114)','Oklahoma (23441)','Nebraska (22134)','Kansas (21263)','Kentucky (21083)','Rhode Island (17711)','New Mexico (16138)','Oregon (13510)','Idaho (13133)','Delaware (13114)','South Dakota (7694)','New Hampshire (6139)','North Dakota (4668)','West Virginia (4657)','Maine (3598)','Montana (2231)','Wyoming (2026)','Alaska (1693)','Vermont (1325)','Hawaii (1311)',
 		'-------------',
-		'Sao Paulo State (393176)','Tocantins (16031)',
+		'Sao Paulo State (402048)','Tocantins (16672)',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
