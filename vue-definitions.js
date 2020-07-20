@@ -2,8 +2,8 @@
 // custom graph component
 
 var point = {
-'Acre':177,'Alagoas':177,'Amapa':177,'Amazonas':177,'Australia':176,'Bahia':177,'Brazil':177,'Canada':177,'Ceara':177,'Espirito Santo':177,'Goias':177,'Japan':177,'Lima':178,'Maranhao':177,'Mato Grosso':177,'Mato Grosso Sul':177,'Mexico':172,'Minas Gerais':177,'Panama':89,'Para':177,'Paraiba':177,'Parana':177,'Pernambuco':177,'Peru':178,'Piaui':177,'Rio Grande Norte':177,'Rio Grande Sul':177,'Riode Janeiro State':177,'Rondonia':177,'Roraima':177,'Santa Catarina':177,'Sao Paulo State':177,'Sergipe':177,'Spain':121,'Sydney':176,'Tocantins':177,
-'default':179
+
+'default':
 };
 
 function camelCase(str){return str.replace(/\s(.)/g,function(a){return a.toUpperCase();}).replace(/\s/g, '').replace(/^(.)/,function(b){return b.toLowerCase();});}
@@ -582,13 +582,13 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3896856)','Brazil (2099896)','India (1118107)','Russia (771546)','South Africa (364328)','Peru (353590)','Mexico (338913)','Chile (330930)','UK (294792)','Italy (244434)','Germany (202845)','Colombia (197278)','France (174674)','Argentina (126755)','Canada (110338)','China (83660)','Sweden (77281)','Belgium (63706)','Netherlands (51725)','Poland (40104)','Nigeria (36663)','Switzerland (33591)','Ireland (25760)','Austria (19655)','Czechia (13945)','Australia (13481)','Estonia (2021)','Slovenia (1946)','New Zealand (1553)',
+		'USA (3898550)','Brazil (2099896)','India (1118107)','Russia (771546)','South Africa (364328)','Peru (353590)','Mexico (344224)','Chile (330930)','UK (294792)','Italy (244434)','Germany (202845)','Colombia (197278)','France (174674)','Argentina (126755)','Canada (110338)','China (83682)','Sweden (77281)','Belgium (63706)','Netherlands (51725)','Poland (40104)','Nigeria (36663)','Switzerland (33591)','Ireland (25760)','Austria (19655)','Czechia (13945)','Australia (13749)','Estonia (2021)','Slovenia (1946)','New Zealand (1554)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (434164)','California (391084)','Florida (350047)','Texas (337890)','New Jersey (182983)','Illinois (162750)','Arizona (143624)','Georgia (143123)','Massachusetts (113534)','Pennsylvania (105384)','North Carolina (99816)','Louisiana (91706)','Michigan (81868)','Maryland (78131)','Tennessee (78115)','Virginia (77430)','Ohio (74966)','South Carolina (69986)','Alabama (67011)','Indiana (56571)','Connecticut (47893)','Washington (47757)','Minnesota (46204)','Mississippi (42638)','Wisconsin (42315)','Colorado (40142)','Iowa (38724)','Nevada (35765)','Missouri (35218)','Utah (34117)','Arkansas (33228)','Oklahoma (25265)','Kentucky (23161)','Nebraska (22583)','Kansas (22356)','Rhode Island (17793)','New Mexico (16971)','Idaho (14873)','Oregon (14579)','Delaware (13519)','South Dakota (7906)','New Hampshire (6203)','West Virginia (5042)','North Dakota (5019)','Maine (3687)','Montana (2533)','Wyoming (2126)','Alaska (1874)','Hawaii (1381)','Vermont (1350)',
+		'New York (434164)','California (391084)','Florida (350047)','Texas (339210)','New Jersey (182983)','Illinois (162750)','Arizona (143624)','Georgia (143123)','Massachusetts (113534)','Pennsylvania (105384)','North Carolina (99816)','Louisiana (91706)','Michigan (81868)','Maryland (78131)','Tennessee (78115)','Virginia (77430)','Ohio (74966)','South Carolina (69986)','Alabama (67011)','Indiana (56571)','Washington (48131)','Connecticut (47893)','Minnesota (46204)','Mississippi (42638)','Wisconsin (42315)','Colorado (40142)','Iowa (38724)','Nevada (35765)','Missouri (35218)','Utah (34117)','Arkansas (33228)','Oklahoma (25265)','Kentucky (23161)','Nebraska (22583)','Kansas (22356)','Rhode Island (17793)','New Mexico (16971)','Idaho (14873)','Oregon (14579)','Delaware (13519)','South Dakota (7906)','New Hampshire (6203)','West Virginia (5042)','North Dakota (5019)','Maine (3687)','Montana (2533)','Wyoming (2126)','Alaska (1874)','Hawaii (1381)','Vermont (1350)',
 		'-------------',
-		'Sao Paulo State (402048)','Tocantins (16672)',
+		'Tocantins ()','Sao Paulo State ()',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
