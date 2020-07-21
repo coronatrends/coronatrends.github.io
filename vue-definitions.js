@@ -583,7 +583,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		3834677'USA ()',2118646'Brazil ()',1155338'India ()',776212'Russia ()',373628'South Africa ()',353590'Peru ()',349396'Mexico ()',330930'Chile ()',295372'UK ()',244624'Italy ()',204005'Colombia ()',203325'Germany ()',203242'France ()',130774'Argentina ()','Canada (112925)','China (85319)',78048'Sweden ()',64094'Belgium ()',51910'Netherlands ()',40383'Poland ()',37225'Nigeria ()',33634'Switzerland ()',25766'Ireland ()',19743'Austria ()',14098'Czechia ()','Australia (12428)',2021'Estonia ()',1953'Slovenia ()',1555'New Zealand ()',
+		'USA','Brazil','India','Russia','South Africa','Peru','Mexico','Chile','UK','Italy','Colombia','Germany','France','Argentina','Canada (112925)','China (85319)','Sweden','Belgium','Netherlands','Poland','Nigeria','Switzerland','Ireland','Austria','Czechia','Australia (12428)','Estonia','Slovenia','New Zealand',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
@@ -592,6 +592,8 @@ window.app = new Vue({
 		'Sao Paulo State (416434)','Ceara (147566)','Rio de Janeiro State (141005)','Bahia (123292)','Maranhao (106906)','Minas Gerais (94132)','Amazonas (91389)','Pernambuco (80115)','Espirito Santo (71703)','Paraiba (67680)','Parana (55909)','Para (55909)','Santa Catarina (54414)','Alagoas (50307)','Rio Grande Sul (47449)','Sergipe (46059)','Rio Grande Norte (43957)','Goias (40795)','Piaui (39606)','Mato Grosso (35639)','Amapa (34145)','Rondonia (29801)','Roraima (25686)','Tocantins (17898)','Acre (17462)','Mato Grosso Sul (16637)',
 		'-------------',
 		'Maharashtra (318695)','Tamil Nadu (175678)','Karnataka (67420)','Andhra Pradesh (53724)','Uttar Pradesh (51160)','Gujarat (49439)','West Bengal (44769)','Rajasthan (30390)','Bihar (27455)','Haryana (26858)','Madhya Pradesh (23310)','Odisha (18110)','Jammu and Kashmir (14650)','Kerala (13275)','Punjab (10510)','Jharkhand (5777)','Chhattisgarh (5598)','Uttarakhand (4642)','Goa (3853)','Tripura (3093)','Puducherry (2094)','Manipur (1925)','Himachal Pradesh (1631)','Ladakh (1195)','Nagaland (1021)','Arunachal Pradesh (790)','Dadra and NHDD (713)','Meghalaya (469)','Sikkim (318)','Mizoram (297)',
+		'-------------',
+		'Central','Northwestern','Southern','Caucasian','Volga','Ural','Siberian','Eastern',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
