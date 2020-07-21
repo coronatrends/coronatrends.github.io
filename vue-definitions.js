@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Acre':177,'Alagoas':177,'Amapa':177,'Amazonas':177,'Bahia':177,'Brazil':177,'Canada':179,'Ceara':177,'Espirito Santo':177,'Goias':177,'Japan':178,'Lima':179,'Maranhao':177,'Mato Grosso':177,'Mato Grosso Sul':177,'Mexico':173,'Minas Gerais':177,'Panama':89,'Para':177,'Paraiba':177,'Parana':177,'Pernambuco':177,'Peru':179,'Piaui':177,'Rio Grande Norte':177,'Rio Grande Sul':177,'Riode Janeiro State':177,'Rondonia':177,'Roraima':177,'Santa Catarina':177,'Sao Paulo State':177,'Seoul':17,'Sergipe':177,'South Korea':149,'Spain':121,'Tocantins':177,
+'Acre':177,'Alagoas':177,'Amapa':177,'Amazonas':177,'Bahia':177,'Brazil':177,'Ceara':177,'Espirito Santo':177,'Goias':177,'Japan':178,'Lima':179,'Maranhao':177,'Mato Grosso':177,'Mato Grosso Sul':177,'Mexico':173,'Minas Gerais':177,'Panama':89,'Para':177,'Paraiba':177,'Parana':177,'Pernambuco':177,'Peru':179,'Piaui':177,'Rio Grande Norte':177,'Rio Grande Sul':177,'Riode Janeiro State':177,'Rondonia':177,'Roraima':177,'Santa Catarina':177,'Sao Paulo State':177,'Seoul':17,'Sergipe':177,'South Korea':149,'Spain':121,'Tocantins':177,
 'default':180
 };
 
@@ -237,7 +237,7 @@ window.app = new Vue({
 		},
 
 		pullData(selectedData, selectedRegion, updateSelectedCountries = true) {
-				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/ \([0-9,]*\)/g,"")) + '.csv';
+				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/ \([0-9,]*\)/g,"")).replace(/RioDe/g,"Riode") + '.csv';
 			Plotly.d3.csv(url, (data) => this.processData(data, selectedRegion, updateSelectedCountries));
 		},
 
@@ -330,7 +330,7 @@ window.app = new Vue({
 			'Sao Paulo','New York','London','Tokyo','Dubai','Johannesburg','Sydney','Buenos Aires','Los Angeles','Paris','Shanghai','Istanbul','Lagos','Auckland','Bogota','Chicago','Berlin','Singapore','Riyadh','Casablanca','Santiago','Toronto','Milan','Hong Kong','Tel Aviv','Tunis','Melbourne','Caracas','Mexico City','Madrid','Mumbai','Cairo','Kampala','Wellington',
 			'Brazil','USA','United Kingdom','Japan','United Arab Emirates','SouthAfrica','Australia','Argentina','France','China','Turkey','Nigeria','New Zealand','Colombia','Mexico','Germany','Singapore','Saudi Arabia','Morocco','Chile','Canada','Italy','Israel','Tunisia','Taiwan','Venezuela', 'Spain','India','Egypt','Uganda'
 			]
-			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria','London','Maharashtra']
+			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria','London','Maharashtra','Bihar','Tamil Nadu','Rajasthan','Madhya Pradesh']
 			if (this.selectedRegion == 'Locations')
 				{this.selectedCountries = ['Barnet','London','England','United Kingdom','Western Europe','European Union','Europe','World'];}
 			else if (selectAll.indexOf(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) > -1)
@@ -582,15 +582,15 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3951808)','Brazil (2118646)','India (1154917)','Russia (777486)','South Africa (373628)','Peru (357681)','Mexico (344224)','Chile (333029)','UK (295372)','Italy (244624)','Colombia (204005)','Germany (203486)','France (176754)','Argentina (126755)','Canada (110635)','China (83682)','Sweden (78048)','Belgium (63893)','Netherlands (51910)','Poland (40383)','Nigeria (36663)','Switzerland (33634)','Ireland (25766)','Austria (19743)','Czechia (13975)','Australia (13750)','Estonia (2021)','Slovenia (1953)','New Zealand (1554)',
+		'USA (3960583)','Brazil (2121645)','India (1154917)','Russia (777486)','South Africa (373628)','Peru (357681)','Mexico (344224)','Chile (333029)','UK (295372)','Italy (244624)','Colombia (204005)','Germany (203487)','France (176754)','Argentina (130774)','Canada (111124)','China (83682)','Sweden (78048)','Belgium (63893)','Netherlands (51910)','Poland (40383)','Nigeria (37225)','Switzerland (33634)','Ireland (25766)','Austria (19743)','Czechia (14098)','Australia (13751)','Estonia (2021)','Slovenia (1953)','New Zealand (1554)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (434803)','California (394951)','Florida (360394)','Texas (344459)','New Jersey (183082)','Illinois (163923)','Georgia (145575)','Arizona (145183)','Massachusetts (113789)','Pennsylvania (106498)','North Carolina (101205)','Louisiana (94892)','Michigan (82395)','Tennessee (79754)','Maryland (78685)','Virginia (78375)','Ohio (76196)','South Carolina (71445)','Alabama (68891)','Indiana (57206)','Washington (48410)','Connecticut (48055)','Minnesota (47107)','Mississippi (43889)','Wisconsin (43018)','Colorado (40566)','Iowa (39224)','Nevada (36713)','Missouri (35821)','Utah (34526)','Arkansas (33927)','Oklahoma (25433)','Kansas (23472)','Kentucky (23414)','Nebraska (22583)','Rhode Island (17904)','New Mexico (16971)','Idaho (14873)','Oregon (14847)','Delaware (13624)','South Dakota (7943)','New Hampshire (6249)','West Virginia (5142)','North Dakota (5126)','Maine (3711)','Montana (2621)','Wyoming (2187)','Alaska (1949)','Hawaii (1381)','Vermont (1360)',
+		'New York (434863)','California (399667)','Florida (360394)','Texas (346611)','New Jersey (183114)','Illinois (163923)','Georgia (145575)','Arizona (145183)','Massachusetts (113789)','Pennsylvania (106498)','North Carolina (101294)','Louisiana (94892)','Michigan (82395)','Tennessee (79754)','Maryland (78685)','Virginia (78375)','Ohio (76196)','South Carolina (71445)','Alabama (68891)','Indiana (57206)','Washington (49142)','Connecticut (48055)','Minnesota (47107)','Mississippi (43889)','Wisconsin (43018)','Colorado (40566)','Iowa (39251)','Nevada (36713)','Missouri (35821)','Utah (34526)','Arkansas (33927)','Oklahoma (25433)','Kansas (23472)','Kentucky (23414)','Nebraska (22847)','Rhode Island (17904)','New Mexico (17215)','Idaho (15266)','Oregon (14847)','Delaware (13624)','South Dakota (7943)','New Hampshire (6249)','West Virginia (5142)','North Dakota (5126)','Maine (3711)','Montana (2621)','Wyoming (2187)','Alaska (1949)','Hawaii (1393)','Vermont (1360)',
 		'-------------',
 		'Sao Paulo State (402048)','Ceara (144000)','Rio de Janeiro State (134573)','Bahia (116373)','Maranhao (104126)','Amazonas (88025)','Minas Gerais (84470)','Pernambuco (76091)','Espirito Santo (68118)','Paraiba (65423)','Santa Catarina (49781)','Parana (49405)','Para (49405)','Alagoas (48734)','Rio Grande Sul (45344)','Sergipe (41226)','Rio Grande Norte (40978)','Goias (40201)','Piaui (36542)','Amapa (33004)','Mato Grosso (31111)','Rondonia (28654)','Roraima (24397)','Acre (16865)','Tocantins (16672)','Mato Grosso Sul (15330)','Distrito Federal ()',
 		'-------------',
-		"Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadra & NHDD","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu & Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal",
+		"Andhra Pradesh","Arunachal Pradesh","Bihar","Chhattisgarh","Dadra & NHDD","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu & Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Tripura","Uttar Pradesh","Uttarakhand","West Bengal",
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
