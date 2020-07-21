@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Canada':180,'Germany':180,'Japan':179,'Lima':180,'Mexico':175,'Panama':89,'Peru':180,'Seoul':18,'South Korea':150,'Spain':121,
+'Germany':180,'Japan':179,'Lima':180,'Mexico':175,'Panama':89,'Peru':180,'Seoul':18,'South Korea':150,'Spain':121,
 'default':181
 };
 
@@ -583,11 +583,11 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (3979457)','Brazil (2122577)','India (1171446)','Russia (783328)','South Africa (373628)','Peru (357681)','Mexico (349396)','Chile (333029)','UK (295817)','Italy (244752)','Colombia (204005)','Germany (203557)','France (176754)','Argentina (130774)','Canada (111124)','China (83693)','Sweden (78166)','Belgium (64094)','Netherlands (52073)','Poland (40782)','Nigeria (37225)','Switzerland (33742)','Ireland (25766)','Austria (19827)','Czechia (14160)','Australia (14113)','Estonia (2022)','Slovenia (1977)','New Zealand (1555)',
+		'USA (3984074)','Brazil (2129053)','India (1191709)','Russia (783328)','South Africa (373628)','Peru (357681)','Mexico (349396)','Chile (334683)','UK (295817)','Italy (244752)','Colombia (204005)','Germany (203557)','France (176754)','Argentina (130774)','Canada (111124)','China (83693)','Sweden (78166)','Belgium (64094)','Netherlands (52073)','Poland (40782)','Nigeria (37225)','Switzerland (33742)','Ireland (25766)','Austria (19827)','Czechia (14160)','Australia (14113)','Estonia (2022)','Slovenia (1977)','New Zealand (1555)',
 		'-------------',
 		'England','Scotland','Wales',
 		'-------------',
-		'New York (434871)','California (399898)','Florida (369834)','Texas (347135)','New Jersey (183114)','Illinois (163923)','Arizona (148683)','Georgia (145575)','Massachusetts (113789)','Pennsylvania (106498)','North Carolina (101294)','Louisiana (94892)','Michigan (82395)','Tennessee (79754)','Maryland (79545)','Virginia (79371)','Ohio (76196)','South Carolina (71445)','Alabama (70255)','Indiana (57916)','Washington (49225)','Connecticut (48055)','Minnesota (47107)','Mississippi (43889)','Wisconsin (43018)','Colorado (40566)','Iowa (39423)','Nevada (36713)','Missouri (35821)','Utah (34526)','Arkansas (33927)','Oklahoma (25433)','Kansas (23472)','Kentucky (23414)','Nebraska (22847)','Rhode Island (17986)','New Mexico (17215)','Idaho (15266)','Oregon (14847)','Delaware (13624)','South Dakota (7943)','New Hampshire (6249)','West Virginia (5161)','North Dakota (5126)','Maine (3723)','Montana (2621)','Wyoming (2187)','Alaska (1949)','Hawaii (1393)','Vermont (1366)',
+		'New York (435569)','California (399898)','Florida (369834)','Texas (347135)','New Jersey (183114)','Illinois (163923)','Arizona (148683)','Georgia (145575)','Massachusetts (113789)','Pennsylvania (106943)','North Carolina (102861)','Louisiana (94892)','Michigan (82395)','Tennessee (79754)','Maryland (79545)','Virginia (79371)','Ohio (76196)','South Carolina (71445)','Alabama (70358)','Indiana (57916)','Washington (49225)','Connecticut (48055)','Minnesota (47457)','Wisconsin (44135)','Mississippi (43889)','Colorado (40566)','Iowa (39424)','Nevada (36713)','Missouri (35821)','Utah (34526)','Arkansas (33927)','Oklahoma (25433)','Kansas (23472)','Kentucky (23414)','Nebraska (22847)','Rhode Island (17986)','New Mexico (17215)','Idaho (15266)','Oregon (14847)','Delaware (13746)','South Dakota (7943)','New Hampshire (6249)','North Dakota (5207)','West Virginia (5161)','Maine (3723)','Montana (2712)','Wyoming (2187)','Alaska (1949)','Hawaii (1393)','Vermont (1366)',
 		'-------------',
 		'Sao Paulo State (416434)','Ceara (147566)','Rio de Janeiro State (141005)','Bahia (123292)','Maranhao (106906)','Minas Gerais (94132)','Amazonas (91389)','Pernambuco (80115)','Espirito Santo (71703)','Paraiba (67680)','Parana (55909)','Para (55909)','Santa Catarina (54414)','Alagoas (50307)','Rio Grande Sul (47449)','Sergipe (46059)','Rio Grande Norte (43957)','Goias (40795)','Piaui (39606)','Mato Grosso (35639)','Amapa (34145)','Rondonia (29801)','Roraima (25686)','Tocantins (17898)','Acre (17462)','Mato Grosso Sul (16637)',
 		'-------------',
