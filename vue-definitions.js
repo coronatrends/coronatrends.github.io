@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Argentina':114,'Canada':184,'France':1,'Germany':184,'Italy':147,'Japan':183,'Lima':184,'Mexico':179,'Netherlands':149,'Panama':89,'Peru':184,'Scotland':184,'Seoul':19,'South Korea':154,'Spain':121,'UK':184,'Wales':184,
+'Argentina':114,'Canada':184,'France':1,'Germany':184,'Italy':148,'Japan':183,'Lima':184,'Mexico':179,'Netherlands':150,'Panama':89,'Peru':184,'Seoul':19,'South Korea':154,'Spain':121,
 'default':185
 };
 
