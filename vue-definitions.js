@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Argentina':114,'Canada':184,'France':1,'Germany':184,'Italy':148,'Japan':183,'Lima':184,'Mexico':179,'Netherlands':150,'Panama':89,'Peru':184,'Seoul':19,'South Korea':154,'Spain':121,
+'Argentina':114,'Canada':184,'France':1,'Italy':148,'Japan':183,'Lima':184,'Mexico':179,'Netherlands':150,'Panama':89,'Peru':184,'Seoul':19,'South Korea':154,'Spain':121,
 'default':185
 };
 
@@ -591,7 +591,7 @@ window.app = new Vue({
 		'----BRAZIL----',
 		'Sao Paulo State (463,218)','Ceara (158,824)','Rio de Janeiro State (154,879)','Bahia (142,767)','Maranhao (112,683)','Minas Gerais (106,812)','Amazonas (95,424)','Pernambuco (85,042)','Espirito Santo (75,854)','Paraiba (74,550)','Santa Catarina (65,017)','Parana (64,259)','Para (64,259)','Rio Grande Sul (57,007)','Alagoas (53,713)','Goias (52,847)','Sergipe (51,132)','Rio Grande Norte (46,683)','Piaui (44,349)','Mato Grosso (42,206)','Amapa (35,026)','Rondonia (34,873)','Roraima (28,874)','Mato Grosso Sul (20,303)','Tocantins (19,965)','Acre (18,393)',
 		'----INDIA----',
-		'Maharashtra (357,117)','Tamil Nadu (199,749)','Karnataka (85,870)','Andhra Pradesh (80,858)','Uttar Pradesh (60,771)','West Bengal (53,973)','Gujarat (53,631)','Rajasthan (34,178)','Bihar (33,511)','Haryana (29,755)','Madhya Pradesh (26,210)','Odisha (22,693)','Kerala (16,996)','Jammu and Kashmir (16,782)','Punjab (12,216)','Jharkhand (7,564)','Chhattisgarh (6,819)','Uttarakhand (5,717)','Goa (4,540)','Tripura (3,783)','Puducherry (2,517)','Manipur (2,146)','Himachal Pradesh (1,954)','Ladakh (1,246)','Nagaland (1,239)','Arunachal Pradesh (1,056)','Dadra and NHDD (866)','Meghalaya (587)','Sikkim (490)','Mizoram (332)',
+		'Maharashtra (357,117)','Tamil Nadu (199,749)','Karnataka (85,870)','Andhra Pradesh (80,858)','Uttar Pradesh (60,771)','West Bengal (53,973)','Gujarat (53,631)','Rajasthan (34,178)','Bihar (33,511)','Haryana (29,755)','Madhya Pradesh (26,210)','Odisha (22,693)','Kerala (16,996)','Jammu and Kashmir (16,782)','Punjab (12,216)','Jharkhand (7,564)','Chhattisgarh (6,819)','Uttarakhand (5,717)','Goa (4,540)','Tripura (3,777)','Puducherry (2,517)','Manipur (2,146)','Himachal Pradesh (1,954)','Ladakh (1,246)','Nagaland (1,239)','Arunachal Pradesh (1,056)','Dadra and NHDD (866)','Meghalaya (587)','Sikkim (490)','Mizoram (332)',
 		'----RUSSIA----',
 		'Central (291,154)','Volga (96,797)','Northwestern (72,659)','Ural (61,695)','Siberian (58,130)','Southern (38,761)','Caucasian (36,566)','Eastern (29,786)',
 		'-------------',
