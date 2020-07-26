@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Australia':185,'Austria':185,'Ayacucho':184,'Belgium':185,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'Czechia':185,'Estonia':185,'Huancavelica':184,'Huanuco':184,'ICA':184,'Ireland':185,'Italy':148,'Japan':183,'Junin':184,'La Libertad':184,'Lambayeque':184,'Latvia':185,'Lima':184,'Lima Province':184,'Lima Region':184,'Lithuania':185,'Loreto':184,'Madrede Dios':184,'Mexico':179,'Moquegua':184,'Netherlands':150,'Panama':89,'Pasco':184,'Peru':184,'Piura Region':184,'Poland':185,'Puno':184,'San Martin':184,'Seoul':19,'Slovenia':185,'South Africa':185,'South Korea':155,'Spain':121,'Sweden':185,'Switzerland':185,'Sydney':185,'Tacna':184,'Tumbes':184,'Ucayali':184,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Australia':185,'Austria':185,'Ayacucho':184,'Belgium':185,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'Czechia':185,'Estonia':185,'Huancavelica':184,'Huanuco':184,'ICA':184,'Ireland':185,'Italy':148,'Japan':183,'Junin':184,'La Libertad':184,'Lambayeque':184,'Latvia':185,'Lima':184,'Lima Province':184,'Lima Region':184,'Lithuania':185,'Loreto':184,'Madrede Dios':184,'Mexico':179,'Moquegua':184,'Netherlands':151,'Panama':89,'Pasco':184,'Peru':184,'Piura Region':184,'Poland':185,'Puno':184,'San Martin':184,'Seoul':19,'Slovenia':185,'South Africa':185,'South Korea':155,'Spain':121,'Sweden':185,'Switzerland':185,'Sydney':185,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':186
 };
 
@@ -596,6 +596,8 @@ window.app = new Vue({
 		'Central (292,153)','Volga (97,709)','Northwestern (73,308)','Ural (62,532)','Siberian (59,004)','Southern (39,201)','Caucasian (36,811)','Eastern (30,234)',
 		'-----PERU-----',
 		'Lima Province (185,156)','Callao Province (20,333)','Piura Region (20,206)','Lambayeque (16,256)','Lima Region (15,314)','La Libertad (13,897)','Arequipa Region (11,703)','Ancash (10,902)','Ica (10,572)','Loreto (10,515)','Ucayali (9,381)','San Martin (7,411)','Junin (6,511)','Huanuco (5,390)','Cajamarca (4,785)','Amazonas Region (4,529)','Tumbes (3,937)','Cusco (3,286)','Ayacucho (3,170)','Madre de Dios (2,838)','Moquegua (2,287)','Tacna (2,250)','Pasco (1,581)','Puno (1,576)','Huancavelica (1,399)','Apurimac (776)',
+		'---COLOMBIA---',
+		'Bogota (81,180)','Atlantico (47,573)','Antioquia (23,035)','Valle del Cauca (20,875)','Bolivar (16,286)','Cundinamarca (6,928)','Narino (6,610)','Sucre (5,119)','Magdalena (4,927)','Cordoba (3,593)','Choco (2,802)','Santander (2,564)','Amazonas Department (2,497)','Cesar (2,447)','Meta (2,256)','Tolima (2,049)','La Guajira (1,757)','Norte de Santander (1,515)','Cauca (1,501)','Risaralda (1,298)','Boyaca (759)','Huila (673)','Caldas (651)','Caqueta (542)','Putumayo (532)','Quindio (245)','Casanare (213)','Arauca (181)','Guaviare (77)','Vaupes (61)','San Andres (33)','Guainia (14)','Vichada (2)',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
