@@ -237,7 +237,7 @@ window.app = new Vue({
 		},
 
 		pullData(selectedData, selectedRegion, updateSelectedCountries = true) {
-				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/ \([0-9,]*\)/g,"")).replace(/RioDe/g,"Riode") + '.csv';
+				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/ \([0-9,]*\)/g,"").replace(/-/g,"")).replace(/RioDe/g,"Riode") + '.csv';
 			Plotly.d3.csv(url, (data) => this.processData(data, selectedRegion, updateSelectedCountries));
 		},
 
