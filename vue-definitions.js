@@ -599,7 +599,7 @@ window.app = new Vue({
 		'---COLOMBIA---',
 		'Atlantico (47,573)','Antioquia (23,035)','Valle del Cauca (20,875)','Bolivar (16,286)','Cundinamarca (6,928)','Narino (6,610)','Sucre (5,119)','Magdalena (4,927)','Cordoba (3,593)','Choco (2,802)','Santander (2,564)','Amazonas Department (2,497)','Cesar (2,447)','Meta (2,256)','Tolima (2,049)','La Guajira (1,757)','Norte de Santander (1,515)','Cauca (1,501)','Risaralda (1,298)','Boyaca (759)','Huila (673)','Caldas (651)','Caqueta (542)','Putumayo (532)','Quindio (245)','Casanare (213)','Arauca (181)','Guaviare (77)','Vaupes (61)','San Andres (33)','Guainia (14)','Vichada (2)',
 		'---NETHERLANDS--',
-		12,352 "Zuid-Holland",9,892 "Noord-Brabant",7,731 "Noord-Holland",'Gelderland (6,565)','Limburg (4,906)','Utrecht (4,248)','Overijssel (3,163)','Flevoland (989)','Zeeland (822)','Friesland (647)','Drenthe (548)','Groningen (372)',
+		'Zuid-Holland (12,352)','Noord-Brabant (9,892)','Noord-Holland (7,731)','Gelderland (6,565)','Limburg (4,906)','Utrecht (4,248)','Overijssel (3,163)','Flevoland (989)','Zeeland (822)','Friesland (647)','Drenthe (548)','Groningen (372)',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
