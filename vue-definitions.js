@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':148,'Japan':183,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':179,'Moquegua':184,'Netherlands':150,'Panama':89,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':19,'South Korea':154,'Spain':121,'Tacna':184,'Tumbes':184,'Ucayali':184,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':148,'Japan':183,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':179,'Moquegua':184,'Netherlands':150,'Panama':89,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':19,'South Korea':155,'Spain':121,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':185
 };
 
@@ -331,7 +331,7 @@ window.app = new Vue({
 			'Sao Paulo','New York','London','Tokyo','Dubai','Johannesburg','Sydney','Buenos Aires','Los Angeles','Paris','Shanghai','Istanbul','Lagos','Auckland','Bogota','Chicago','Berlin','Singapore','Riyadh','Casablanca','Santiago','Toronto','Milan','Hong Kong','Tel Aviv','Tunis','Melbourne','Caracas','Mexico City','Madrid','Mumbai','Cairo','Kampala','Wellington',
 			'Brazil','USA','United Kingdom','Japan','United Arab Emirates','SouthAfrica','Australia','Argentina','France','China','Turkey','Nigeria','New Zealand','Colombia','Mexico','Germany','Singapore','Saudi Arabia','Morocco','Chile','Canada','Italy','Israel','Tunisia','Taiwan','Venezuela', 'Spain','India','Egypt','Uganda'
 			]
-			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria','London','Maharashtra','Bihar','Tamil Nadu','Rajasthan','Madhya Pradesh']
+			const selectAll = ['Europe','Lima','Flawed Democracies','Hybrid Regimes','Less Authoritarian','Colombia','Mexico','Nigeria','London','Maharashtra','Bihar','Tamil Nadu','Rajasthan','Madhya Pradesh','Lima Province','Piura Region','Lambayeque','Lima Region','La Libertad','Cajamarca','Arequipa Region','Ica']
 			if (this.selectedRegion == 'Locations')
 				{this.selectedCountries = ['Barnet','London','England','United Kingdom','Western Europe','European Union','Europe','World'];}
 			else if (selectAll.indexOf(this.selectedRegion.replace(/ \([0-9,]*\)/g,"")) > -1)
