@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Argentina':114,'Canada':184,'France':1,'Italy':148,'Japan':183,'Lima':184,'Mexico':179,'Netherlands':150,'Panama':89,'Peru':184,'Seoul':19,'South Korea':154,'Spain':121,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':148,'Japan':183,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':179,'Moquegua':184,'Netherlands':150,'Panama':89,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':19,'South Korea':154,'Spain':121,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':185
 };
 
@@ -583,7 +583,7 @@ window.app = new Vue({
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
-		'USA (4,112,531)','Brazil (2,287,475)','India (1,337,024)','Russia (799,499)','South Africa (421,996)','Mexico (378,285)','Peru (375,961)','Chile (341,304)','UK (297,914)','Italy (245,590)','Colombia (233,541)','France (206,418)','Germany (205,623)','Argentina (153,520)','Canada (114,385)','China (86,207)','Sweden (78,997)','Belgium (65,199)','Netherlands (52,595)','Poland (42,038)','Nigeria (39,539)','Switzerland (34,154)','Ireland (25,845)','Austria (20,214)','Czechia (15,081)','Australia (13,950)','Slovenia (2,052)','Estonia (2,028)','New Zealand (1,556)',
+		'USA (4,112,531)','Brazil (2,343,366)','India (1,337,024)','Russia (799,499)','South Africa (421,996)','Mexico (378,285)','Peru (375,961)','Chile (341,304)','UK (297,914)','Italy (245,590)','Colombia (233,541)','France (206,418)','Germany (205,623)','Argentina (153,520)','Canada (114,385)','China (86,207)','Sweden (78,997)','Belgium (65,199)','Netherlands (52,595)','Poland (42,038)','Nigeria (39,539)','Switzerland (34,154)','Ireland (25,845)','Austria (20,214)','Czechia (15,081)','Australia (13,950)','Slovenia (2,052)','Estonia (2,028)','New Zealand (1,556)',
 		'------UK------',
 		'England','Scotland','Wales',
 		'-----USA-----',
@@ -594,6 +594,8 @@ window.app = new Vue({
 		'Maharashtra (357,117)','Tamil Nadu (199,749)','Karnataka (85,870)','Andhra Pradesh (80,858)','Uttar Pradesh (60,771)','West Bengal (53,973)','Gujarat (53,631)','Rajasthan (34,178)','Bihar (33,511)','Haryana (29,755)','Madhya Pradesh (26,210)','Odisha (22,693)','Kerala (16,996)','Jammu and Kashmir (16,782)','Punjab (12,216)','Jharkhand (7,564)','Chhattisgarh (6,819)','Uttarakhand (5,717)','Goa (4,540)','Tripura (3,777)','Puducherry (2,517)','Manipur (2,146)','Himachal Pradesh (1,954)','Ladakh (1,246)','Nagaland (1,239)','Arunachal Pradesh (1,056)','Dadra and NHDD (866)','Meghalaya (587)','Sikkim (490)','Mizoram (332)',
 		'----RUSSIA----',
 		'Central (291,154)','Volga (96,797)','Northwestern (72,659)','Ural (61,695)','Siberian (58,130)','Southern (38,761)','Caucasian (36,566)','Eastern (29,786)',
+		'-----PERU-----',
+		'Lima Province (185,156)','Callao Province (20,333)','Piura Region (20,206)','Lambayeque (16,256)','Lima Region (15,314)','La Libertad (13,897)','Arequipa Region (11,703)','Ancash (10,902)','Ica (10,572)','Loreto (10,515)','Ucayali (9,381)','San Martin (7,411)','Junin (6,511)','Huanuco (5,390)','Cajamarca (4,785)','Amazonas Region (4,529)','Tumbes (3,937)','Cusco (3,286)','Ayacucho (3,170)','Madre de Dios (2,838)','Moquegua (2,287)','Tacna (2,250)','Pasco (1,581)','Puno (1,576)','Huancavelica (1,399)','Apurimac (776)',
 		'-------------',
 		'Sydney','Seoul','London','Lima','Chicago',
 		'-------------',
