@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':186,'Cusco':184,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':150,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Cusco':184,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':150,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':187
 };
 
@@ -587,7 +587,7 @@ window.app = new Vue({
 		'-------------',
 		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
-		'USA (4,233,923)','Brazil (2,419,091)','India (1,435,616)','Russia (811,073)','South Africa (445,433)','Mexico (390,516)','Peru (375,961)','Chile (345,790)','UK (299,426)','Italy (246,118)','Colombia (240,795)','Germany (206,667)','France (206,418)','Argentina (162,526)','Canada (115,457)','China (86,575)','Sweden (78,997)','Belgium (66,026)','Netherlands (52,732)','Poland (43,065)','Nigeria (40,532)','Switzerland (34,412)','Ireland (25,881)','Austria (20,472)','Czechia (15,324)','Australia (14,935)','Slovenia (2,082)','Estonia (2,034)','New Zealand (1,556)',
+		'USA (4,233,923)','Brazil (2,419,091)','India (1,435,616)','Russia (811,073)','South Africa (445,433)','Mexico (390,516)','Peru (375,961)','Chile (345,790)','UK (299,426)','Italy (246,118)','Colombia (240,795)','Germany (206,667)','France (206,418)','Argentina (162,526)','Canada (115,776)','China (86,575)','Sweden (78,997)','Belgium (66,026)','Netherlands (52,732)','Poland (43,065)','Nigeria (40,532)','Switzerland (34,412)','Ireland (25,881)','Austria (20,472)','Czechia (15,324)','Australia (14,935)','Slovenia (2,082)','Estonia (2,034)','New Zealand (1,556)',
 		'------UK------',
 		'England','Scotland','Wales',
 		'-----USA-----',
