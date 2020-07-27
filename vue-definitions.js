@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'France':186,'Germany':186,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':150,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':186,'Cusco':184,'France':186,'Germany':186,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':150,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':187
 };
 
@@ -587,7 +587,7 @@ window.app = new Vue({
 		'-------------',
 		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
-		'USA (4,233,923)','Brazil (2,419,091)','India (1,435,616)','Russia (811,073)','South Africa (445,433)','Mexico (390,516)','Peru (375,961)','Chile (345,790)','UK (299,426)','Italy (246,118)','Colombia (240,795)','Germany (206,667)','France (206,418)','Argentina (162,526)','Canada (114,385)','China (86,575)','Sweden (78,997)','Belgium (66,026)','Netherlands (52,732)','Poland (43,065)','Nigeria (40,532)','Switzerland (34,412)','Ireland (25,881)','Austria (20,472)','Czechia (15,324)','Australia (14,935)','Slovenia (2,082)','Estonia (2,034)','New Zealand (1,556)',
+		'USA (4,233,923)','Brazil (2,419,091)','India (1,435,616)','Russia (811,073)','South Africa (445,433)','Mexico (390,516)','Peru (375,961)','Chile (345,790)','UK (299,426)','Italy (246,118)','Colombia (240,795)','Germany (206,667)','France (206,418)','Argentina (162,526)','Canada (115,457)','China (86,575)','Sweden (78,997)','Belgium (66,026)','Netherlands (52,732)','Poland (43,065)','Nigeria (40,532)','Switzerland (34,412)','Ireland (25,881)','Austria (20,472)','Czechia (15,324)','Australia (14,935)','Slovenia (2,082)','Estonia (2,034)','New Zealand (1,556)',
 		'------UK------',
 		'England','Scotland','Wales',
 		'-----USA-----',
@@ -603,7 +603,7 @@ window.app = new Vue({
 		'---COLOMBIA---',
 		'Atlantico (48,439)','Antioquia (24,143)','Valle del Cauca (21,536)','Bolivar (16,695)','Cundinamarca (7,121)','Narino (6,798)','Sucre (5,319)','Magdalena (5,262)','Cordoba (3,982)','Choco (2,820)','Santander (2,658)','Cesar (2,535)','Amazonas Department (2,503)','Meta (2,280)','Tolima (2,100)','La Guajira (1,808)','Norte de Santander (1,581)','Cauca (1,558)','Risaralda (1,344)','Boyaca (799)','Caldas (712)','Huila (704)','Putumayo (644)','Caqueta (585)','Quindio (248)','Casanare (220)','Arauca (181)','Guaviare (77)','Vaupes (61)',
 		'----MEXICO----',
-		'Puebla (11,698)','Veracruz (4,627)','Aguascalientes (2,729)','San Luis Potosi (2,659)','Oaxaca (2,525)','Queretaro (2,152)','Campeche (1,671)','Durango (1,418)','Chihuahua (915)','Tlaxcala (713)','Guanajuato (397)','Zacatecas (371)','Colima (216)','Sinaloa (179)','Morelos (34)','Tabasco (5)','Guerrero (5)','Quintana Roo (1)','Hidalgo (0)','Yucatan ()','Tamaulipas ()','Sonora ()','Nuevo Leon ()','Nayarit ()','Michoacan ()','Mexico State ()','Jalisco ()','Coahuila ()','Chiapas ()','Baja California Sur ()','Baja California ()',
+		'Mexico State (49,293)','Tabasco (18,776)','Puebla (18,235)','Guanajuato (16,796)','Sonora (16,411)','Nuevo Leon (14,384)','Tamaulipas (13,233)','Baja California (12,741)','Sinaloa (12,049)','Jalisco (11,469)','Coahuila (10,678)','Guerrero (9,718)','Oaxaca (9,659)','Michoacan (8,730)','Yucatan (7,879)','San Luis Potosi (7,409)','Quintana Roo (6,632)','Hidalgo (5,841)','Chiapas (5,605)','Chihuahua (4,799)','Veracruz (4,627)','Tlaxcala (4,110)','Campeche (3,992)','Morelos (3,775)','Aguascalientes (3,623)','Baja California Sur (3,488)','Durango (3,467)','Queretaro (3,147)','Nayarit (2,978)','Zacatecas (2,009)','Colima (1,374)',
 		'--NETHERLANDS--',
 		'Zuid-Holland (12,450)','Noord-Brabant (9,919)','Noord-Holland (7,777)','Gelderland (6,577)','Limburg (4,908)','Utrecht (4,264)','Overijssel (3,164)','Flevoland (990)','Zeeland (827)','Friesland (647)','Drenthe (549)','Groningen (375)',
 		'-------------',
