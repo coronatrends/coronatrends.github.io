@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'France':186,'Germany':186,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':149,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
+'Amazonas Region':184,'Ancash':184,'Apurimac':184,'Arequipa Region':184,'Argentina':114,'Ayacucho':184,'Cajamarca':184,'Callao Province':184,'Canada':184,'Cusco':184,'France':186,'Germany':186,'Huancavelica':184,'Huanuco':184,'ICA':184,'Italy':150,'Junin':184,'La Libertad':184,'Lambayeque':184,'Lima':184,'Lima Province':184,'Lima Region':184,'Loreto':184,'Madrede Dios':184,'Mexico':181,'Moquegua':184,'Pasco':184,'Peru':184,'Piura Region':184,'Puno':184,'San Martin':184,'Seoul':20,'South Korea':156,'Spain':132,'Tacna':184,'Tumbes':184,'Ucayali':184,
 'default':187
 };
 
@@ -581,7 +581,11 @@ window.app = new Vue({
 		regions: [
 		'Cities','Countries','Regions',
 		'-------------',
+		'London','Sydney','Chicago','Seoul','Lima','Mexico City',
+		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
+		'-------------',
+		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
 		'USA (4,233,923)','Brazil (2,419,091)','India (1,435,616)','Russia (811,073)','South Africa (445,433)','Mexico (390,516)','Peru (375,961)','Chile (345,790)','UK (299,426)','Italy (246,118)','Colombia (240,795)','Germany (206,667)','France (206,418)','Argentina (162,526)','Canada (114,385)','China (86,575)','Sweden (78,997)','Belgium (66,026)','Netherlands (52,732)','Poland (43,065)','Nigeria (40,532)','Switzerland (34,412)','Ireland (25,881)','Austria (20,472)','Czechia (15,324)','Australia (14,935)','Slovenia (2,082)','Estonia (2,034)','New Zealand (1,556)',
 		'------UK------',
@@ -598,12 +602,10 @@ window.app = new Vue({
 		'Lima Province (185,156)','Callao Province (20,333)','Piura Region (20,206)','Lambayeque (16,256)','Lima Region (15,314)','La Libertad (13,897)','Arequipa Region (11,703)','Ancash (10,902)','Ica (10,572)','Loreto (10,515)','Ucayali (9,381)','San Martin (7,411)','Junin (6,511)','Huanuco (5,390)','Cajamarca (4,785)','Amazonas Region (4,529)','Tumbes (3,937)','Cusco (3,286)','Ayacucho (3,170)','Madre de Dios (2,838)','Moquegua (2,287)','Tacna (2,250)','Pasco (1,581)','Puno (1,576)','Huancavelica (1,399)','Apurimac (776)',
 		'---COLOMBIA---',
 		'Atlantico (48,439)','Antioquia (24,143)','Valle del Cauca (21,536)','Bolivar (16,695)','Cundinamarca (7,121)','Narino (6,798)','Sucre (5,319)','Magdalena (5,262)','Cordoba (3,982)','Choco (2,820)','Santander (2,658)','Cesar (2,535)','Amazonas Department (2,503)','Meta (2,280)','Tolima (2,100)','La Guajira (1,808)','Norte de Santander (1,581)','Cauca (1,558)','Risaralda (1,344)','Boyaca (799)','Caldas (712)','Huila (704)','Putumayo (644)','Caqueta (585)','Quindio (248)','Casanare (220)','Arauca (181)','Guaviare (77)','Vaupes (61)',
-		'---NETHERLANDS--',
+		'----MEXICO----',
+		'Puebla (11,698)','Veracruz (4,627)','Aguascalientes (2,729)','San Luis Potosi (2,659)','Oaxaca (2,525)','Queretaro (2,152)','Campeche (1,671)','Durango (1,418)','Chihuahua (915)','Tlaxcala (713)','Guanajuato (397)','Zacatecas (371)','Colima (216)','Sinaloa (179)','Morelos (34)','Tabasco (5)','Guerrero (5)','Quintana Roo (1)','Hidalgo (0)','Yucatan ()','Tamaulipas ()','Sonora ()','Nuevo Leon ()','Nayarit ()','Michoacan ()','Mexico State ()','Jalisco ()','Coahuila ()','Chiapas ()','Baja California Sur ()','Baja California ()',
+		'--NETHERLANDS--',
 		'Zuid-Holland (12,450)','Noord-Brabant (9,919)','Noord-Holland (7,777)','Gelderland (6,577)','Limburg (4,908)','Utrecht (4,264)','Overijssel (3,164)','Flevoland (990)','Zeeland (827)','Friesland (647)','Drenthe (549)','Groningen (375)',
-		'-------------',
-		'Sydney','Seoul','London','Lima','Chicago',
-		'-------------',
-		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
 		'Locations'],
 		selectedRegion: 'Cities',
