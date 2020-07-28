@@ -587,7 +587,7 @@ window.app = new Vue({
 		'-------------',
 		'Governance','Full Democracies','Flawed Democracies','Hybrid Regimes','Less Authoritarian','More Authoritarian',
 		'-------------',
-		'USA (4,290,259)','Brazil (2,442,375)','India (1,480,073)','Russia (816,680)','South Africa (452,529)','Mexico (395,489)','Peru (389,717)','Chile (347,923)','UK (300,111)','Colombia (257,101)','Italy (246,286)','France (208,665)','Germany (207,112)','Argentina (167,416)','Canada (115,776)','China (86,788)','Sweden (79,395)','Belgium (66,428)','Netherlands (53,151)','Poland (43,402)','Nigeria (41,180)','Switzerland (34,477)','Ireland (25,892)','Austria (20,558)','Czechia (15,516)','Australia (15,303)','Slovenia (2,087)','Estonia (2,034)','New Zealand (1,557)',
+		'USA (4,290,259)','Brazil (2,442,375)','India (1,480,073)','Russia (816,680)','South Africa (452,529)','Mexico (395,489)','Peru (389,717)','Chile (347,923)','UK (300,111)','Colombia (257,101)','Italy (246,286)','France (208,665)','Germany (207,112)','Argentina (167,416)','Canada (115,776)','China (86,788)','Sweden (79,395)','Belgium (66,428)','Netherlands (53,151)','Poland (43,402)','Nigeria (41,180)','Switzerland (34,477)','Ireland (25,892)','Austria (20,558)','Czechia (15,516)','Australia (15,303)','Slovenia (2,087)','New Zealand (1,557)',
 		'------UK------',
 		'England','Scotland','Wales',
 		'-----USA-----',
