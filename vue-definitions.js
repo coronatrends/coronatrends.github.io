@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':1,'Ancash':1,'Apurimac':1,'Arequipa Region':1,'Argentina':114,'Ayacucho':1,'Cajamarca':1,'Callao Province':25,'Canada':187,'Cusco':1,'Huancavelica':1,'Huanuco':1,'ICA':2,'Italy':150,'Johannesburg':187,'Junin':1,'La Libertad':1,'Lambayeque':3,'Lima':25,'Lima Province':25,'Lima Region':1,'Loreto':1,'Madrede Dios':1,'Mexico':182,'Moquegua':1,'Pasco':1,'Peru':85,'Piura Region':1,'Puno':1,'San Martin':1,'Seoul':20,'South Africa':187,'South Korea':157,'Spain':124,'Sydney':70,'Tacna':1,'Tumbes':4,'Ucayali':2,
+'Amazonas Region':187,'Ancash':187,'Apurimac':187,'Arequipa Region':187,'Argentina':114,'Ayacucho':187,'Cajamarca':187,'Callao Province':187,'Canada':187,'Cusco':187,'Huancavelica':187,'Huanuco':187,'ICA':187,'Italy':150,'Johannesburg':187,'Junin':187,'La Libertad':187,'Lambayeque':187,'Lima':187,'Lima Province':187,'Lima Region':187,'Loreto':187,'Madrede Dios':187,'Mexico':182,'Moquegua':187,'Pasco':187,'Peru':187,'Piura Region':187,'Puno':187,'San Martin':187,'Seoul':20,'South Africa':187,'South Korea':157,'Spain':124,'Tacna':187,'Tumbes':187,'Ucayali':187,
 'default':188
 };
 
@@ -237,7 +237,7 @@ window.app = new Vue({
 		},
 
 		pullData(selectedData, selectedRegion, updateSelectedCountries = true) {
-				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/ \([0-9,]*\)/g,"").replace(/-/g,"")).replace(/RioDe/g,"Riode") + '.csv';
+				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/-/g," ").replace(/ \([0-9,]*\)/g,"")).replace(/RioDe/g,"Riode") + '.csv';
 			Plotly.d3.csv(url, (data) => this.processData(data, selectedRegion, updateSelectedCountries));
 		},
 
@@ -599,7 +599,7 @@ window.app = new Vue({
 		'----RUSSIA----',
 		'Central (294,156)','Volga (99,491)','Northwestern (74,548)','Ural (64,179)','Siberian (60,704)','Southern (40,054)','Caucasian (37,284)','Eastern (31,064)',
 		'-----PERU-----',
-		'Lima Province (130,054)','Piura Region (18,423)','Callao Province (16,763)','Lambayeque (14,459)','Lima Region (13,354)','La Libertad (11,170)','Loreto (9,832)','Arequipa Region (9,135)','Ica (9,066)','Ancash (9,062)','Ucayali (8,448)','San Martin (7,354)','Junin (5,276)','Amazonas Region (4,997)','Huanuco (4,605)','Cajamarca (4,344)','Cusco (2,983)','Tumbes (2,883)','Ayacucho (2,648)','Madre de Dios (2,465)','Tacna (1,971)','Moquegua (1,828)','Pasco (1,705)','Puno (1,596)','Huancavelica (1,387)','Apurimac (826)',
+		'Lima Province (190,422)','Callao Province (20,679)','Piura Region (20,498)','Lambayeque (16,604)','Lima Region (16,292)','La Libertad (14,377)','Arequipa Region (12,699)','Ancash (11,332)','Ica (10,927)','Loreto (10,721)','Ucayali (9,525)','San Martin (7,841)','Junin (6,947)','Huanuco (5,718)','Cajamarca (5,140)','Amazonas Region (4,997)','Tumbes (4,019)','Cusco (3,808)','Ayacucho (3,366)','Madre de Dios (2,994)','Moquegua (2,517)','Tacna (2,406)','Puno (1,862)','Pasco (1,705)','Huancavelica (1,495)','Apurimac (826)',
 		'---COLOMBIA---',
 		'Atlantico (49,037)','Antioquia (26,117)','Valle del Cauca (22,010)','Bolivar (16,883)','Cundinamarca (7,241)','Narino (7,090)','Sucre (5,440)','Magdalena (5,397)','Cordoba (4,504)','Choco (2,861)','Santander (2,797)','Cesar (2,636)','Amazonas Department (2,506)','Meta (2,313)','Tolima (2,173)','La Guajira (1,888)','Norte de Santander (1,785)','Cauca (1,624)','Risaralda (1,349)','Boyaca (820)','Putumayo (759)','Caldas (723)','Huila (721)','Caqueta (678)','Quindio (267)','Casanare (252)','Arauca (181)','Guaviare (80)','Vaupes (61)',
 		'----MEXICO----',
