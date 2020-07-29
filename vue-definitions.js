@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':187,'Ancash':187,'Apurimac':187,'Arequipa Region':187,'Argentina':114,'Ayacucho':187,'Cajamarca':187,'Callao Province':187,'Canada':187,'Cusco':187,'Huancavelica':187,'Huanuco':187,'ICA':187,'Italy':151,'Junin':187,'La Libertad':187,'Lambayeque':187,'Lima':187,'Lima Province':187,'Lima Region':187,'Loreto':187,'Madrede Dios':187,'Mexico':182,'Moquegua':187,'Pasco':187,'Peru':187,'Piura Region':187,'Puno':187,'San Martin':187,'Seoul':20,'South Korea':157,'Spain':124,'Tacna':187,'Tumbes':187,'Ucayali':187,
+'Amazonas Region':187,'Ancash':187,'Apurimac':187,'Arequipa Region':187,'Argentina':114,'Ayacucho':187,'Cajamarca':187,'Callao Province':187,'Canada':187,'Cusco':187,'Huancavelica':187,'Huanuco':187,'ICA':187,'Italy':151,'Junin':187,'La Libertad':187,'Lambayeque':187,'Lima':187,'Lima Province':187,'Lima Region':187,'Loreto':187,'Madrede Dios':187,'Mexico':182,'Moquegua':187,'Pasco':187,'Peru':187,'Piura Region':187,'Puno':187,'San Martin':187,'Seoul':21,'South Korea':158,'Spain':124,'Tacna':187,'Tumbes':187,'Ucayali':187,
 'default':188
 };
 
@@ -593,19 +593,19 @@ window.app = new Vue({
 		'----BRAZIL----',
 		'Sao Paulo State (487,654)','Ceara (162,429)','Rio de Janeiro State (157,834)','Bahia (149,109)','Maranhao (114,585)','Minas Gerais (113,718)','Amazonas (97,079)','Pernambuco (89,132)','Espirito Santo (78,037)','Paraiba (76,693)','Santa Catarina (70,138)','Parana (68,001)','Para (68,001)','Rio Grande Sul (60,044)','Goias (57,985)','Alagoas (56,204)','Sergipe (53,612)','Rio Grande Norte (47,291)','Piaui (46,584)','Mato Grosso (44,838)','Rondonia (36,148)','Amapa (35,364)','Roraima (29,902)','Tocantins (22,106)','Mato Grosso Sul (21,802)','Acre (18,783)',
 		'----INDIA----',
-		'West Bengal ()','Uttarakhand ()','Uttar Pradesh ()','Tripura ()','Tamil Nadu ()','Sikkim ()','Rajasthan ()','Punjab ()','Puducherry ()','Odisha ()','Nagaland ()','Mizoram ()','Meghalaya ()','Manipur ()','Maharashtra ()','Madhya Pradesh ()','Ladakh ()','Kerala ()','Karnataka ()','Jharkhand ()','Jammu and Kashmir ()','Himachal Pradesh ()','Haryana ()','Gujarat ()','Goa ()','Dadra and NHDD ()','Chhattisgarh ()','Bihar ()','Arunachal Pradesh ()','Andhra Pradesh ()',
+		'Maharashtra (383,723)','Tamil Nadu (220,716)','Andhra Pradesh (102,349)','Karnataka (101,465)','Uttar Pradesh (70,493)','West Bengal (60,830)','Gujarat (56,874)','Bihar (41,111)','Rajasthan (37,564)','Haryana (32,127)','Madhya Pradesh (28,589)','Odisha (26,892)','Kerala (19,728)','Jammu and Kashmir (18,390)','Punjab (13,769)','Jharkhand (8,803)','Chhattisgarh (7,980)','Uttarakhand (6,328)','Goa (5,119)','Tripura (4,066)','Puducherry (2,874)','Manipur (2,286)','Himachal Pradesh (2,270)','Nagaland (1,385)','Ladakh (1,306)','Arunachal Pradesh (1,239)','Dadra and NHDD (988)','Meghalaya (738)','Sikkim (568)','Mizoram (361)',
 		'----RUSSIA----',
 		'Central (294,156)','Volga (99,491)','Northwestern (74,548)','Ural (64,179)','Siberian (60,704)','Southern (40,054)','Caucasian (37,284)','Eastern (31,064)',
 		'----MEXICO----',
-		'Mexico State (49,659)','Tabasco (19,226)','Veracruz (19,131)','Puebla (18,541)','Guanajuato (17,450)','Sonora (16,560)','Nuevo Leon (14,899)','Tamaulipas (13,640)','Baja California (12,899)','Sinaloa (12,172)','Jalisco (11,739)','Coahuila (11,008)','Oaxaca (9,815)','Guerrero (9,811)','Michoacan (8,894)','Yucatan (8,108)','San Luis Potosi (7,855)','Quintana Roo (6,778)','Hidalgo (5,979)','Chiapas (5,623)','Chihuahua (4,824)','Tlaxcala (4,175)','Campeche (4,086)','Morelos (3,814)','Aguascalientes (3,715)','Baja California Sur (3,586)','Durango (3,572)','Queretaro (3,212)','Nayarit (3,049)','Zacatecas (2,095)','Colima (1,432)',
+		'Mexico State (50,136)','Tabasco (19,255)','Veracruz (19,243)','Puebla (18,565)','Guanajuato (17,648)','Sonora (16,744)','Nuevo Leon (14,914)','Tamaulipas (13,907)','Baja California (12,957)','Sinaloa (12,187)','Jalisco (11,796)','Coahuila (11,058)','Oaxaca (9,868)','Guerrero (9,853)','Michoacan (8,908)','Yucatan (8,114)','San Luis Potosi (8,027)','Quintana Roo (6,779)','Hidalgo (6,004)','Chiapas (5,628)','Chihuahua (4,940)','Tlaxcala (4,194)','Campeche (4,087)','Morelos (3,821)','Aguascalientes (3,720)','Baja California Sur (3,598)','Durango (3,573)','Queretaro (3,225)','Nayarit (3,047)','Zacatecas (2,097)','Colima (1,436)',
 		'-----PERU-----',
 		'Lima Province (190,422)','Callao Province (20,679)','Piura Region (20,498)','Lambayeque (16,604)','Lima Region (16,292)','La Libertad (14,377)','Arequipa Region (12,699)','Ancash (11,332)','Ica (10,927)','Loreto (10,721)','Ucayali (9,525)','San Martin (7,841)','Junin (6,947)','Huanuco (5,718)','Cajamarca (5,140)','Amazonas Region (4,997)','Tumbes (4,019)','Cusco (3,808)','Ayacucho (3,366)','Madre de Dios (2,994)','Moquegua (2,517)','Tacna (2,406)','Puno (1,862)','Pasco (1,705)','Huancavelica (1,495)','Apurimac (826)',
 		'------UK------',
-		'Wales ()','Scotland ()','England ()',
+		'England','Scotland','Wales',
 		'---COLOMBIA---',
 		'Atlantico (49,037)','Antioquia (26,117)','Valle del Cauca (22,010)','Bolivar (16,883)','Cundinamarca (7,241)','Narino (7,090)','Sucre (5,440)','Magdalena (5,397)','Cordoba (4,504)','Choco (2,861)','Santander (2,797)','Cesar (2,636)','Amazonas Department (2,506)','Meta (2,313)','Tolima (2,173)','La Guajira (1,888)','Norte de Santander (1,785)','Cauca (1,624)','Risaralda (1,349)','Boyaca (820)','Putumayo (759)','Caldas (723)','Huila (721)','Caqueta (678)','Quindio (267)','Casanare (252)','Arauca (181)','Guaviare (80)','Vaupes (61)',
-		'----FRANCE----',		
-		'Ile-de-France','Centre-Val de Loire','Bourgogne-Franche-Comte','Normandie','Hauts-de-France','Grand Est','Pays de la Loire','Bretagne','Nouvelle-Aquitaine','Occitanie','Auvergne-Rhone-Alpes',"Provence-Alpes-Cote d'Azur",'Corse',
+		'----FRANCE----',
+		'Ile-de-France','Centre-Val de Loire','Bourgogne-Franche-Comte','Normandie','Hauts-de-France','Grand Est','Pays de la Loire','Bretagne','Nouvelle-Aquitaine','Occitanie','Auvergne-Rhone-Alpes','Provence-Alpes-Cote dAzur','Corse',
 		'--NETHERLANDS--',
 		'Zuid-Holland (12,540)','Noord-Brabant (9,935)','Noord-Holland (7,838)','Gelderland (6,583)','Limburg (4,912)','Utrecht (4,273)','Overijssel (3,168)','Flevoland (991)','Zeeland (835)','Friesland (648)','Drenthe (549)','Groningen (377)',
 		'-------------',
