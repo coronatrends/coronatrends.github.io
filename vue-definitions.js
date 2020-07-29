@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Acre':188,'Alagoas':188,'Amapa':188,'Amazonas':188,'Amazonas Region':188,'Ancash':188,'Apurimac':188,'Arequipa Region':188,'Argentina':114,'Ayacucho':188,'Bahia':188,'Brazil':188,'Cajamarca':188,'Callao Province':188,'Canada':187,'Ceara':188,'Cusco':188,'Espirito Santo':188,'Goias':188,'Huancavelica':188,'Huanuco':188,'ICA':188,'Italy':151,'Johannesburg':188,'Junin':188,'La Libertad':188,'Lambayeque':188,'Lima':188,'Lima Province':188,'Lima Region':188,'Locations':188,'Loreto':188,'Madrede Dios':188,'Maranhao':188,'Mato Grosso':188,'Mato Grosso Sul':188,'Mexico':183,'Minas Gerais':188,'Moquegua':188,'Para':188,'Paraiba':188,'Parana':188,'Pasco':188,'Pernambuco':188,'Peru':188,'Piaui':188,'Piura Region':188,'Puno':188,'Rio Grande Norte':188,'Rio Grande Sul':188,'Riode Janeiro State':188,'Rondonia':188,'Roraima':188,'San Martin':188,'Santa Catarina':188,'Sao Paulo State':188,'Seoul':21,'Sergipe':188,'South Africa':188,'South Korea':158,'Spain':124,'Tacna':188,'Tocantins':188,'Tumbes':188,'Ucayali':188,
+'Acre':188,'Alagoas':188,'Amapa':188,'Amazonas':188,'Amazonas Region':188,'Ancash':188,'Antofagasta':78,'Apurimac':188,'Araucania':78,'Arequipa Region':188,'Argentina':114,'Aricay Parinacota':78,'Atacama':78,'Ayacucho':188,'Aysen':78,'Bahia':188,'Biobio':78,'Brazil':188,'Cajamarca':188,'Callao Province':188,'Canada':187,'Ceara':188,'Coquimbo':78,'Cusco':188,'Espirito Santo':188,'Goias':188,'Huancavelica':188,'Huanuco':188,'ICA':188,'Italy':151,'Johannesburg':188,'Junin':188,'La Libertad':188,'Lambayeque':188,'Lima':188,'Lima Province':188,'Lima Region':188,'Locations':188,'Loreto':188,'Madrede Dios':188,'Magallanes':78,'Maranhao':188,'Mato Grosso':188,'Mato Grosso Sul':188,'Maule':78,'Mexico':183,'Minas Gerais':188,'Moquegua':188,'Nuble':78,'Para':188,'Paraiba':188,'Parana':188,'Pasco':188,'Pernambuco':188,'Peru':188,'Piaui':188,'Piura Region':188,'Puno':188,'Rio Grande Norte':188,'Rio Grande Sul':188,'Riode Janeiro State':188,'Rondonia':188,'Roraima':188,'San Martin':188,'Santa Catarina':188,'Santiago':78,'Sao Paulo State':188,'Seoul':21,'Sergipe':188,'South Africa':188,'South Korea':158,'Spain':124,'Tacna':188,'Tarapaca':78,'Tocantins':188,'Tumbes':188,'Ucayali':188,'Valparaiso':78,
 'default':189
 };
 
@@ -237,7 +237,7 @@ window.app = new Vue({
 		},
 
 		pullData(selectedData, selectedRegion, updateSelectedCountries = true) {
-				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/-/g," ").replace(/ \([0-9,]*\)/g,"")).replace(/RioDe/g,"Riode") + '.csv';
+				let url = 'data/' + camelCase(selectedRegion.toLowerCase().replace(/[-’]/g," ").replace(/ \([0-9,]*\)/g,"")).replace(/RioDe/g,"Riode") + '.csv';
 			Plotly.d3.csv(url, (data) => this.processData(data, selectedRegion, updateSelectedCountries));
 		},
 
@@ -581,7 +581,7 @@ window.app = new Vue({
 		regions: [
 		'Cities','Countries','Regions',
 		'-------------',
-		'London','Sydney','Johannesburg','Chicago','Seoul','Lima','Mexico City',
+		'London','Sydney','Johannesburg','Chicago','Mexico City','Seoul','Santiago','Lima',
 		'-------------',
 		'North America','South America','Latin America','Europe','EU','Middle East','Africa','Asia','Oceania',
 		'-------------',
@@ -590,23 +590,26 @@ window.app = new Vue({
 		'USA (4,351,997)','Brazil (2,483,191)','India (1,483,156)','Russia (822,060)','South Africa (459,761)','Mexico (402,697)','Peru (389,717)','Chile (349,800)','UK (300,658)','Colombia (267,385)','Italy (246,488)','France (209,342)','Germany (207,707)','Argentina (173,355)','Canada (115,776)','China (86,995)','Sweden (79,494)','Belgium (66,662)','Netherlands (53,374)','Poland (43,904)','Nigeria (41,804)','Switzerland (34,609)','Ireland (25,929)','Austria (20,677)','Czechia (15,799)','Australia (15,582)','Slovenia (2,101)','New Zealand (1,559)',
 		'-----USA-----',
 		'California (470,929)','Florida (441,977)','New York (413,327)','Texas (408,726)','New Jersey (184,638)','Illinois (175,200)','Georgia (172,285)','Arizona (165,944)','Massachusetts (116,924)','North Carolina (116,703)','Pennsylvania (114,084)','Louisiana (111,486)','Tennessee (99,159)','Michigan (88,435)','Ohio (87,799)','Virginia (87,012)','Maryland (85,536)','South Carolina (84,117)','Alabama (82,366)','Indiana (63,876)','Washington (54,970)','Mississippi (54,174)','Minnesota (52,857)','Wisconsin (50,243)','Connecticut (49,382)','Colorado (45,582)','Nevada (45,207)','Missouri (45,202)','Iowa (43,056)','Arkansas (40,186)','Utah (39,033)','Oklahoma (33,920)','Kentucky (28,494)','Kansas (26,070)','Nebraska (25,304)','New Mexico (19,802)','Rhode Island (19,368)','Idaho (19,229)','Oregon (17,409)','Delaware (14,476)','South Dakota (8,496)','New Hampshire (6,585)','West Virginia (6,165)','North Dakota (6,145)','Maine (3,870)','Montana (3,488)','Alaska (2,737)','Wyoming (2,591)','Hawaii (1,779)','Vermont (1,459)',
-		'----BRAZIL----',
+		'----BRAZIL---',
 		'Sao Paulo State (487,654)','Ceara (162,429)','Rio de Janeiro State (157,834)','Bahia (149,109)','Maranhao (114,585)','Minas Gerais (113,718)','Amazonas (97,079)','Pernambuco (89,132)','Espirito Santo (78,037)','Paraiba (76,693)','Santa Catarina (70,138)','Parana (68,001)','Para (68,001)','Rio Grande Sul (60,044)','Goias (57,985)','Alagoas (56,204)','Sergipe (53,612)','Rio Grande Norte (47,291)','Piaui (46,584)','Mato Grosso (44,838)','Rondonia (36,148)','Amapa (35,364)','Roraima (29,902)','Tocantins (22,106)','Mato Grosso Sul (21,802)','Acre (18,783)',
 		'----INDIA----',
 		'Maharashtra (391,440)','Tamil Nadu (227,688)','Andhra Pradesh (110,297)','Karnataka (107,001)','Uttar Pradesh (73,951)','West Bengal (62,964)','Gujarat (57,982)','Bihar (43,591)','Rajasthan (38,636)','Haryana (32,876)','Madhya Pradesh (29,217)','Odisha (28,107)','Kerala (20,895)','Jammu and Kashmir (18,879)','Punjab (14,378)','Jharkhand (9,563)','Chhattisgarh (8,286)','Uttarakhand (6,587)','Goa (5,287)','Tripura (4,287)','Puducherry (3,013)','Himachal Pradesh (2,330)','Manipur (2,317)','Nagaland (1,460)','Arunachal Pradesh (1,330)','Ladakh (1,327)','Dadra and NHDD (1,032)','Meghalaya (779)','Sikkim (592)','Mizoram (384)',
-		'----RUSSIA----',
+		'----RUSSIA---',
 		'Central (295,108)','Volga (100,343)','Northwestern (75,117)','Ural (64,962)','Siberian (61,511)','Southern (40,465)','Caucasian (37,508)','Eastern (31,443)',
-		'----MEXICO----',
+		'----MEXICO---',
 		'Mexico State (50,414)','Tabasco (19,636)','Veracruz (19,609)','Puebla (18,840)','Guanajuato (18,133)','Sonora (16,836)','Nuevo Leon (15,093)','Tamaulipas (13,994)','Baja California (13,040)','Sinaloa (12,293)','Jalisco (12,020)','Coahuila (11,300)','Guerrero (9,967)','Oaxaca (9,940)','Michoacan (9,049)','Yucatan (8,339)','San Luis Potosi (8,212)','Quintana Roo (6,946)','Hidalgo (6,122)','Chiapas (5,645)','Chihuahua (4,974)','Tlaxcala (4,259)','Campeche (4,162)','Morelos (3,853)','Aguascalientes (3,770)','Baja California Sur (3,705)','Durango (3,653)','Queretaro (3,284)','Nayarit (3,124)','Zacatecas (2,193)','Colima (1,512)',
-		'-----PERU-----',
+		'-----PERU----',
 		'Lima Province (192,748)','Callao Province (20,841)','Piura Region (20,687)','Lambayeque (16,815)','Lima Region (16,461)','La Libertad (14,550)','Arequipa Region (12,859)','Ancash (11,536)','Ica (11,092)','Loreto (10,812)','Ucayali (9,598)','San Martin (8,036)','Junin (7,105)','Huanuco (5,756)','Cajamarca (5,307)','Amazonas Region (5,098)','Tumbes (4,058)','Cusco (3,923)','Ayacucho (3,462)','Madre de Dios (3,089)','Moquegua (2,627)','Tacna (2,509)','Puno (1,932)','Pasco (1,751)','Huancavelica (1,513)','Apurimac (840)',
-		'------UK------',
+		'----CHILE----',
+		'Valparaiso (17,146)','Antofagasta (14,371)','Biobio (10,836)','O’Higgins','Maule (8,718)','Tarapaca (8,585)','Coquimbo (5,913)','Arica y Parinacota','Araucania (3,978)','Los Lagos (3,635)','Nuble (3,449)','Atacama (2,401)','Magallanes (1,683)','Los Rios (887)','Aysen (75)',
+		'------UK-----',
 		'England','Scotland','Wales',
-		'---COLOMBIA---',
+		'---COLOMBIA--',
 		'Atlantico (49,037)','Antioquia (26,117)','Valle del Cauca (22,010)','Bolivar (16,883)','Cundinamarca (7,241)','Narino (7,090)','Sucre (5,440)','Magdalena (5,397)','Cordoba (4,504)','Choco (2,861)','Santander (2,797)','Cesar (2,636)','Amazonas Department (2,506)','Meta (2,313)','Tolima (2,173)','La Guajira (1,888)','Norte de Santander (1,785)','Cauca (1,624)','Risaralda (1,349)','Boyaca (820)','Putumayo (759)','Caldas (723)','Huila (721)','Caqueta (678)','Quindio (267)','Casanare (252)','Arauca (181)','Guaviare (80)','Vaupes (61)',
-		'----FRANCE----',
-		'Ile-de-France (36,874)','Grand Est (16,281)','Auvergne-Rhone-Alpes (9,717)','Hauts-de-France (8,807)','Provence-Alpes-Cote dAzur (6,652)','Bourgogne-Franche-Comte (5,100)','Occitanie (3,457)','Pays de la Loire (2,682)','Centre-Val de Loire (2,671)','Nouvelle-Aquitaine (2,668)','Normandie (2,214)','Bretagne (1,594)','Corse (310)',
-		'--NETHERLANDS--',
+		'---FRANCE----',
+		'Ile-de-France (36,874)','Grand Est (16,281)','Auvergne-Rhone-Alpes (9,717)','Hauts-de-France (8,807)','Bourgogne-Franche-Comte (5,100)','Occitanie (3,457)','Pays de la Loire (2,682)','Centre-Val de Loire (2,671)','Nouvelle-Aquitaine (2,668)','Normandie (2,214)','Bretagne (1,594)','Corse (310)', "Provence-Alpes-Cote d’Azur",
+		'-------------',
+		'-NETHERLANDS-',
 		'Zuid-Holland (12,650)','Noord-Brabant (9,970)','Noord-Holland (7,887)','Gelderland (6,588)','Limburg (4,914)','Utrecht (4,283)','Overijssel (3,168)','Flevoland (993)','Zeeland (843)','Friesland (648)','Drenthe (549)','Groningen (379)',
 		'-------------',
 		'Locations'],
