@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':189,'Ancash':189,'Antofagasta':188,'Apurimac':189,'Araucania':188,'Arequipa Region':189,'Argentina':114,'Arica Y Parinacota':188,'Atacama':188,'Ayacucho':189,'Aysen':188,'Biobio':188,'Cajamarca':189,'Callao Province':189,'Canada':187,'Coquimbo':188,'Cusco':189,'Huancavelica':189,'Huanuco':189,'ICA':189,'Italy':154,'Johannesburg':190,'Junin':189,'La Libertad':189,'Lambayeque':189,'Lima':189,'Lima Province':189,'Lima Region':189,'Loreto':189,'Los Lagos':188,'Los Rios':188,'Madrede Dios':189,'Magallanes':188,'Maule':188,'Mexico':185,'Moquegua':189,'Nuble':188,'O Higgins':188,'Pasco':189,'Peru':189,'Piura Region':189,'Puno':189,'San Martin':189,'Santiago':188,'Seoul':21,'South Africa':190,'South Korea':161,'Spain':124,'Tacna':189,'Tarapaca':188,'Tumbes':189,'Ucayali':189,'Valparaiso':188,
+'Amazonas Region':189,'Ancash':189,'Antofagasta':188,'Apurimac':189,'Araucania':188,'Arequipa Region':189,'Argentina':114,'Arica Y Parinacota':188,'Atacama':188,'Ayacucho':189,'Aysen':188,'Biobio':188,'Cajamarca':189,'Callao Province':189,'Canada':187,'Coquimbo':188,'Cusco':189,'Huancavelica':189,'Huanuco':189,'ICA':189,'Italy':154,'Johannesburg':190,'Junin':189,'La Libertad':189,'Lambayeque':189,'Lima':189,'Lima Province':189,'Lima Region':189,'Loreto':189,'Los Lagos':188,'Los Rios':188,'Madrede Dios':189,'Magallanes':188,'Maule':188,'Mexico':185,'Moquegua':189,'Nuble':188,'O Higgins':188,'ONS':187,'Pasco':189,'Peru':189,'Piura Region':189,'Puno':189,'San Martin':189,'Santiago':188,'Seoul':21,'South Africa':190,'South Korea':161,'Spain':124,'Tacna':189,'Tarapaca':188,'Tumbes':189,'Ucayali':189,'Valparaiso':188,
 'default':191
 };
 
@@ -579,7 +579,7 @@ window.app = new Vue({
 		selectedData: 'Confirmed Cases',
 		selectedTitle: 'Confirmed Cases',
 		regions: [
-		'Cities','Countries','Regions',
+		'Cities','Countries','Regions','ONS',
 		'-------------',
 		'London','Sydney','Johannesburg','Chicago','Mexico City','Seoul','Santiago','Lima',
 		'-------------',
