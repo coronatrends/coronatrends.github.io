@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':204,'Ancash':204,'Apurimac':204,'Arequipa Region':204,'Argentina':114,'Ayacucho':204,'Cajamarca':204,'Callao Province':204,'Canada':205,'Cusco':204,'Huancavelica':204,'Huanuco':204,'ICA':204,'Ireland':138,'Italy':167,'Japan':202,'Johannesburg':205,'Junin':204,'La Libertad':204,'Lambayeque':204,'Lima':204,'Lima Province':204,'Lima Region':204,'Loreto':204,'Madrede Dios':204,'Mexico':200,'Minas Gerais':65,'Moquegua':204,'Nigeria':2,'Pasco':204,'Peru':204,'Piura Region':204,'Puno':204,'San Martin':204,'Seoul':25,'South Africa':205,'South Korea':175,'Spain':126,'Tacna':204,'Tumbes':204,'Ucayali':204,
+'Amazonas Region':204,'Ancash':204,'Apurimac':204,'Arequipa Region':204,'Argentina':114,'Ayacucho':204,'Cajamarca':204,'Callao Province':204,'Canada':205,'Cusco':204,'England':145,'Huancavelica':204,'Huanuco':204,'ICA':204,'Ireland':138,'Italy':167,'Japan':202,'Johannesburg':205,'Junin':204,'La Libertad':204,'Lambayeque':204,'Lima':204,'Lima Province':204,'Lima Region':204,'London':159,'Loreto':204,'Madrede Dios':204,'Minas Gerais':65,'Moquegua':204,'Nigeria':2,'Pasco':204,'Peru':204,'Piura Region':204,'Puno':204,'San Martin':204,'Seoul':26,'South Africa':205,'South Korea':176,'Spain':126,'Tacna':204,'Tumbes':204,'Ucayali':204,'UK':186,
 'default':206
 };
 
@@ -597,7 +597,7 @@ window.app = new Vue({
 		'----RUSSIA---',
 		'Central (312,306)','Volga (114,259)','Northwestern (84,247)','Ural (75,769)','Siberian (73,984)','Southern (48,386)','Caucasian (41,356)','Eastern (37,699)',
 		'----MEXICO---',
-		'Mexico State (60,008)','Guanajuato (25,199)','Veracruz (24,877)','Tabasco (24,729)','Puebla (23,282)','Nuevo Leon (22,517)','Tamaulipas (20,401)','Sonora (19,684)','Coahuila (16,533)','Jalisco (15,652)','Baja California (15,063)','Sinaloa (14,228)','San Luis Potosi (13,576)','Guerrero (12,804)','Oaxaca (11,999)','Yucatan (11,792)','Michoacan (11,787)','Quintana Roo (8,827)','Hidalgo (8,116)','Chihuahua (6,487)','Chiapas (5,984)','Baja California Sur (5,681)','Tlaxcala (5,405)','Campeche (5,040)','Durango (4,892)','Aguascalientes (4,603)','Queretaro (4,511)','Morelos (4,497)','Nayarit (4,051)','Zacatecas (3,553)','Colima (2,427)',
+		'Zacatecas ()','Yucatan ()','Veracruz ()','Tlaxcala ()','Tamaulipas ()','Tabasco ()','Sonora ()','Sinaloa ()','San Luis Potosi ()','Quintana Roo ()','Queretaro ()','Puebla ()','Oaxaca ()','Nuevo Leon ()','Nayarit ()','Morelos ()','Michoacan ()','Mexico State ()','Jalisco ()','Hidalgo ()','Guerrero ()','Guanajuato ()','Durango ()','Colima ()','Coahuila ()','Chihuahua ()','Chiapas ()','Campeche ()','Baja California Sur ()','Baja California ()','Aguascalientes ()',
 		'-----PERU----',
 		'Lima Province (234,183)','Callao Province (23,945)','Piura Region (23,467)','Arequipa Region (21,692)','Lima Region (20,346)','Lambayeque (19,369)','La Libertad (18,450)','Ica (15,857)','Ancash (14,700)','Loreto (12,825)','Ucayali (11,483)','San Martin (10,783)','Junin (10,439)','Cajamarca (9,809)','Huanuco (8,716)','Cusco (7,830)','Amazonas Region (7,655)','Ayacucho (5,499)','Moquegua (5,253)','Tumbes (4,926)','Tacna (4,899)','Madre de Dios (4,399)','Puno (4,258)','Pasco (2,868)','Huancavelica (2,775)','Apurimac (1,570)',
 		'----CHILE----',
