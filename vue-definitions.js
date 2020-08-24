@@ -607,7 +607,7 @@ window.app = new Vue({
 		'---COLOMBIA--',
 		'Atlantico (49,037)','Antioquia (26,117)','Valle del Cauca (22,010)','Bolivar (16,883)','Cundinamarca (7,241)','Narino (7,090)','Sucre (5,440)','Magdalena (5,397)','Cordoba (4,504)','Choco (2,861)','Santander (2,797)','Cesar (2,636)','Amazonas Department (2,506)','Meta (2,313)','Tolima (2,173)','La Guajira (1,888)','Norte de Santander (1,785)','Cauca (1,624)','Risaralda (1,349)','Boyaca (820)','Putumayo (759)','Caldas (723)','Huila (721)','Caqueta (678)','Quindio (267)','Casanare (252)','Arauca (181)','Guaviare (80)','Vaupes (61)',
 		'---FRANCE----',
-		'Ile-de-France (38,090)','Grand Est (16,621)','Auvergne-Rhone-Alpes (10,028)','Hauts-de-France (9,109)','Bourgogne-Franche-Comte (5,167)','Occitanie (3,550)','Centre-Val de Loire (2,940)','Pays de la Loire (2,853)','Nouvelle-Aquitaine (2,742)','Normandie (2,331)','Bretagne (1,641)','Corse (315)', "Provence-Alpes-Cote d’Azur",
+		'Ile-de-France (38,090)','Grand Est (16,621)','Auvergne-Rhone-Alpes (10,028)','Hauts-de-France (9,109)','Bourgogne-Franche-Comte (5,167)','Occitanie (3,550)','Centre-Val de Loire (2,940)','Pays de la Loire (2,857)','Nouvelle-Aquitaine (2,742)','Normandie (2,331)','Bretagne (1,641)','Corse (315)', "Provence-Alpes-Cote d’Azur",
 		'-------------',
 		'-NETHERLANDS-',
 		'Zuid-Holland (17,835)','Noord-Brabant (11,591)','Noord-Holland (11,329)','Gelderland (7,156)','Limburg (5,249)','Utrecht (5,170)','Overijssel (3,421)','Flevoland (1,244)','Zeeland (1,017)','Friesland (784)','Drenthe (599)','Groningen (555)',
