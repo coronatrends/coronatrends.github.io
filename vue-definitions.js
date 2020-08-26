@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':215,'Ancash':215,'Antofagasta':216,'Apurimac':215,'Araucania':216,'Arequipa Region':215,'Argentina':114,'Arica Y Parinacota':216,'Atacama':216,'Ayacucho':215,'Aysen':216,'Biobio':216,'Cajamarca':215,'Callao Province':215,'Coquimbo':216,'Cusco':215,'Germany':216,'Huancavelica':215,'Huanuco':215,'ICA':215,'Ireland':148,'Italy':178,'Japan':203,'Junin':215,'La Libertad':215,'Lambayeque':215,'Lima':215,'Lima Province':215,'Lima Region':215,'Loreto':215,'Los Lagos':216,'Los Rios':216,'Madrede Dios':215,'Magallanes':216,'Maule':216,'Mexico':211,'Moquegua':215,'Nigeria':2,'Nuble':216,'O Higgins':216,'Pasco':215,'Peru':215,'Piura Region':215,'Puno':215,'San Martin':215,'Santiago':216,'Seoul':34,'South Korea':186,'Spain':127,'Tacna':215,'Tarapaca':216,'Tumbes':215,'Ucayali':215,'Valparaiso':216,
+'Antofagasta':216,'Araucania':216,'Argentina':114,'Arica Y Parinacota':216,'Atacama':216,'Aysen':216,'Biobio':216,'Coquimbo':216,'Germany':216,'Ireland':148,'Italy':178,'Japan':203,'Los Lagos':216,'Los Rios':216,'Magallanes':216,'Maule':216,'Mexico':211,'Nigeria':2,'Nuble':216,'O Higgins':216,'Santiago':216,'Seoul':34,'South Korea':186,'Spain':127,'Tarapaca':216,'Valparaiso':216,
 'default':217
 };
 
@@ -599,7 +599,7 @@ window.app = new Vue({
 		'----MEXICO---',
 		'Mexico State (64,708)','Guanajuato (28,790)','Veracruz (27,191)','Tabasco (26,814)','Nuevo Leon (26,110)','Puebla (25,469)','Tamaulipas (23,229)','Sonora (20,856)','Coahuila (19,687)','Jalisco (18,215)','San Luis Potosi (16,313)','Baja California (16,076)','Sinaloa (15,375)','Guerrero (14,072)','Michoacan (13,800)','Yucatan (13,426)','Oaxaca (13,007)','Quintana Roo (9,701)','Hidalgo (9,347)','Chihuahua (7,342)','Baja California Sur (6,874)','Chiapas (6,145)','Tlaxcala (5,946)','Durango (5,734)','Queretaro (5,500)','Campeche (5,333)','Aguascalientes (5,195)','Morelos (4,948)','Nayarit (4,620)','Zacatecas (4,536)','Colima (3,160)',
 		'-----PERU----',
-		'Lima Province (267,997)','Arequipa Region (29,502)','Piura Region (26,452)','Callao Province (26,070)','Lima Region (22,531)','Lambayeque (21,204)','La Libertad (21,053)','Ica (18,531)','Ancash (16,949)','Loreto (14,486)','Cajamarca (13,452)','Junin (13,400)','Ucayali (12,951)','San Martin (12,460)','Cusco (12,322)','Huanuco (10,931)','Amazonas Region (9,622)','Moquegua (7,900)','Puno (7,392)','Tacna (7,290)','Ayacucho (7,148)','Tumbes (5,468)','Madre de Dios (5,382)','Huancavelica (4,194)','Pasco (3,444)','Apurimac (2,307)',
+		'Lima Province (270,527)','Arequipa Region (29,857)','Piura Region (26,832)','Callao Province (26,346)','Lima Region (22,710)','Lambayeque (21,310)','La Libertad (21,261)','Ica (18,833)','Ancash (17,170)','Loreto (14,593)','Cajamarca (13,654)','Junin (13,555)','Ucayali (13,045)','Cusco (12,648)','San Martin (12,601)','Huanuco (11,105)','Amazonas Region (9,760)','Moquegua (8,098)','Tacna (7,550)','Puno (7,536)','Ayacucho (7,263)','Tumbes (5,532)','Madre de Dios (5,449)','Huancavelica (4,258)','Pasco (3,486)','Apurimac (2,387)',
 		'----CHILE----',
 		'Valparaiso (1,242,267)','Antofagasta (997,238)','Biobio (791,774)','O’Higgins (665,771)','Tarapaca (636,637)','Maule (612,241)','Coquimbo (399,513)','Araucania (386,167)','Nuble (297,154)','Los Lagos (280,671)','Arica y Parinacota (278,276)','Magallanes (183,770)','Atacama (179,880)','Los Rios (77,299)','Aysen (5,514)',
 		'------UK-----',
