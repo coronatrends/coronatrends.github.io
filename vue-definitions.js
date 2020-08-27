@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Antofagasta':216,'Araucania':216,'Argentina':114,'Arica Y Parinacota':216,'Atacama':216,'Aysen':216,'Biobio':216,'Coquimbo':216,'Germany':216,'Ireland':148,'Italy':178,'Japan':203,'Los Lagos':216,'Los Rios':216,'Magallanes':216,'Maule':216,'Mexico':211,'Nigeria':2,'Nuble':216,'O Higgins':216,'Santiago':216,'Seoul':34,'South Korea':186,'Spain':127,'Tarapaca':216,'Valparaiso':216,
+'Antofagasta':216,'Araucania':216,'Argentina':114,'Arica Y Parinacota':216,'Atacama':216,'Aysen':216,'Biobio':216,'Coquimbo':216,'Germany':216,'Ireland':148,'Italy':178,'Japan':203,'Los Lagos':216,'Los Rios':216,'Magallanes':216,'Maule':216,'Mexico':211,'Nigeria':2,'Nuble':216,'O Higgins':216,'Santiago':216,'Seoul':35,'South Korea':187,'Spain':127,'Tarapaca':216,'Valparaiso':216,
 'default':217
 };
 
