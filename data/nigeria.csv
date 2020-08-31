@@ -1,42 +1,42 @@
 Province/State,Country/Region,Lat,Long,1/22/20,1/23/20
 ,Nigeria,9.082,8.6753,0,0
 ,Africa,,,0,0
-,Lagos,,,16578,16578
+,Lagos,,,16595,16595
 ,Abia,,,771,771
-,Adamawa,,,221,221
-,Akwa Ibom,,,30,30
-,Anambra,,,214,214
+,Adamawa,,,228,228
+,Akwa Ibom,,,31,31
+,Anambra,,,216,216
 ,Bauchi,,,667,667
 ,Bayelsa,,,391,391
-,Benue,,,452,452
-,Borno,,,740,740
-,Cross River,,,30,30
+,Benue,,,453,453
+,Borno,,,741,741
+,Cross River,,,31,31
 ,Delta,,,1744,1744
-,Ebonyi,,,984,984
-,Edo,,,2578,2578
+,Ebonyi,,,993,993
+,Edo,,,2584,2584
 ,Ekiti,,,262,262
-,Enugu,,,1155,1155
+,Enugu,,,1162,1162
 ,Gombe,,,723,723
 ,Imo,,,527,527
 ,Jigawa,,,322,322
-,Kaduna,,,2120,2120
-,Kano,,,1725,1725
-,Katsina,,,789,789
+,Kaduna,,,2141,2141
+,Kano,,,1727,1727
+,Katsina,,,796,796
 ,Kebbi,,,93,93
 ,Kogi,,,5,5
-,Kwara,,,961,961
-,Lagos State,,,18119,18119
+,Kwara,,,966,966
+,Lagos State,,,18138,18138
 ,Nasarawa,,,434,434
-,Niger,,,241,241
-,Ogun,,,1646,1646
+,Niger,,,243,243
+,Ogun,,,1648,1648
 ,Ondo,,,1539,1539
-,Osun,,,779,779
+,Osun,,,782,782
 ,Oyo,,,3118,3118
-,Plateau,,,2498,2498
+,Plateau,,,2533,2533
 ,Rivers,,,2141,2141
-,Sokoto,,,158,158
+,Sokoto,,,159,159
 ,Taraba,,,87,87
 ,Yobe,,,67,67
 ,Zamfara,,,78,78
-,FCT,,,5156,5156
+,FCT,,,5169,5169
 ,World,,,555,654
