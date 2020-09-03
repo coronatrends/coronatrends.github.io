@@ -595,7 +595,7 @@ window.app = new Vue({
 		'----INDIA----',
 		'Maharashtra (825,739)','Andhra Pradesh (455,531)','Tamil Nadu (439,959)','Karnataka (361,341)','Uttar Pradesh (241,439)','West Bengal (168,697)','Bihar (140,234)','Odisha (109,780)','Gujarat (99,050)','Rajasthan (84,674)','Kerala (78,072)','Haryana (68,218)','Madhya Pradesh (66,914)','Punjab (56,989)','Jharkhand (44,837)','Jammu and Kashmir (38,864)','Chhattisgarh (35,683)','Uttarakhand (21,234)','Goa (18,642)','Puducherry (15,159)','Tripura (12,719)','Manipur (6,507)','Himachal Pradesh (6,416)','Arunachal Pradesh (4,360)','Nagaland (4,017)','Ladakh (2,785)','Meghalaya (2,517)','Dadra and NHDD (2,432)','Sikkim (1,717)','Mizoram (1,020)',
 		'----RUSSIA---',
-		'Central (331,641)','Volga (122,006)','Northwestern (93,896)','Siberian (78,187)','Ural (63,768)','Southern (57,538)','Caucasian (46,868)','Eastern (43,979)',
+		'Central (331,641)','Volga (122,006)','Northwestern (93,896)','Siberian (78,192)','Ural (63,768)','Southern (57,533)','Caucasian (46,868)','Eastern (43,979)',
 		'----MEXICO---',
 		'Mexico State (64,708)','Guanajuato (28,790)','Veracruz (27,191)','Tabasco (26,814)','Nuevo Leon (26,110)','Puebla (25,469)','Tamaulipas (23,229)','Sonora (20,856)','Coahuila (19,687)','Jalisco (18,215)','San Luis Potosi (16,313)','Baja California (16,076)','Sinaloa (15,375)','Guerrero (14,072)','Michoacan (13,800)','Yucatan (13,426)','Oaxaca (13,007)','Quintana Roo (9,701)','Hidalgo (9,347)','Chihuahua (7,342)','Baja California Sur (6,874)','Chiapas (6,145)','Tlaxcala (5,946)','Durango (5,734)','Queretaro (5,500)','Campeche (5,333)','Aguascalientes (5,195)','Morelos (4,948)','Nayarit (4,620)','Zacatecas (4,536)','Colima (3,160)',
 		'-----PERU----',
