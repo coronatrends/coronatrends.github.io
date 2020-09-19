@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Antofagasta':237,'Araucania':237,'Argentina':114,'Arica Y Parinacota':237,'Atacama':237,'Australia':240,'Aysen':237,'Biobio':237,'Canada':212,'Caucasian':155,'Central':155,'Chile':237,'Coquimbo':237,'Eastern':155,'Germany':240,'Japan':203,'Johannesburg':240,'Latvia':222,'Los Lagos':237,'Los Rios':237,'Magallanes':237,'Maule':237,'Nigeria':74,'Northwestern':155,'Nuble':237,'O Higgins':237,'Russia':155,'Santiago':237,'Siberian':155,'South Africa':240,'Southern':155,'Spain':127,'Sydney':240,'Tarapaca':237,'Ural':155,'Valparaiso':237,'Volga':155,
+'Argentina':114,'Australia':240,'Canada':212,'Caucasian':155,'Central':155,'Eastern':155,'Germany':240,'Japan':203,'Johannesburg':240,'Latvia':222,'Nigeria':74,'Northwestern':155,'Russia':155,'Siberian':155,'South Africa':240,'Southern':155,'Spain':127,'Sydney':240,'Ural':155,'Volga':155,
 'default':241
 };
 
@@ -601,7 +601,7 @@ window.app = new Vue({
 		'-----PERU----',
 		'Ucayali ()','Tumbes ()','Tacna ()','San Martin ()','Puno ()','Piura Region ()','Pasco ()','Moquegua ()','Madre de Dios ()','Loreto ()','Lima Region ()','Lima Province ()','Lambayeque ()','La Libertad ()','Junin ()','Ica ()','Huanuco ()','Huancavelica ()','Cusco ()','Callao Province ()','Cajamarca ()','Ayacucho ()','Arequipa Region ()','Apurimac ()','Ancash ()','Amazonas Region ()',
 		'----CHILE----',
-		'Valparaiso (1,715,855)','Antofagasta (1,366,193)','Biobio (1,159,903)','O’Higgins (942,783)','Maule (858,301)','Tarapaca (853,595)','Coquimbo (606,146)','Araucania (494,195)','Los Lagos (418,969)','Arica y Parinacota (415,735)','Nuble (397,242)','Atacama (297,085)','Magallanes (267,031)','Los Rios (101,208)','Aysen (8,141)',
+		'Valparaiso (1,818,675)','Antofagasta (1,443,261)','Biobio (1,243,945)','O’Higgins (1,003,167)','Maule (914,032)','Tarapaca (898,879)','Coquimbo (651,526)','Araucania (518,853)','Los Lagos (450,066)','Arica y Parinacota (445,492)','Nuble (420,220)','Atacama (322,754)','Magallanes (290,512)','Los Rios (107,071)','Aysen (8,884)',
 		'------UK-----',
 		'England','Scotland','Wales',
 		'---COLOMBIA--',
