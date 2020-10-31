@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':280,'Ancash':280,'Antofagasta':279,'Apurimac':280,'Araucania':279,'Arequipa Region':280,'Arica Y Parinacota':279,'Atacama':279,'Australia':282,'Ayacucho':280,'Aysen':279,'Biobio':279,'Cajamarca':280,'Callao Province':280,'Canada':249,'Chile':279,'Coquimbo':279,'Cusco':280,'Germany':282,'Huancavelica':280,'Huanuco':280,'ICA':280,'Japan':203,'Junin':280,'La Libertad':280,'Lambayeque':280,'Latvia':222,'Lima':280,'Lima Province':280,'Lima Region':280,'Lithuania':263,'Loreto':280,'Los Lagos':279,'Los Rios':279,'Madrede Dios':280,'Magallanes':279,'Maule':279,'Moquegua':280,'Nigeria':277,'Nuble':279,'O Higgins':279,'Pasco':280,'Peru':280,'Piura Region':280,'Puno':280,'San Martin':280,'Santiago':279,'Spain':127,'Sydney':282,'Tacna':280,'Tarapaca':279,'Tumbes':280,'Ucayali':280,'Valparaiso':279,'Wales':280,
+'Amazonas Region':280,'Ancash':280,'Apurimac':280,'Arequipa Region':280,'Australia':282,'Ayacucho':280,'Cajamarca':280,'Callao Province':280,'Canada':249,'Cusco':280,'Germany':282,'Huancavelica':280,'Huanuco':280,'ICA':280,'Japan':203,'Junin':280,'La Libertad':280,'Lambayeque':280,'Latvia':222,'Lima':280,'Lima Province':280,'Lima Region':280,'Lithuania':263,'Loreto':280,'Madrede Dios':280,'Moquegua':280,'Nigeria':277,'Pasco':280,'Peru':280,'Piura Region':280,'Puno':280,'San Martin':280,'Spain':127,'Sydney':282,'Tacna':280,'Tumbes':280,'Ucayali':280,
 'default':283
 };
 
@@ -601,7 +601,7 @@ window.app = new Vue({
 		'-----PERU----',
 		'Lima Province (374,431)','Arequipa Region (44,423)','Piura Region (38,151)','Callao Province (36,867)','La Libertad (32,516)','Lima Region (30,361)','Ica (29,565)','Lambayeque (28,510)','Ancash (25,889)','Junin (22,799)','Cusco (22,232)','Cajamarca (22,026)','Loreto (21,872)','San Martin (20,932)','Ucayali (17,701)','Huanuco (17,238)','Puno (16,989)','Amazonas Region (16,511)','Moquegua (14,222)','Ayacucho (13,095)','Tacna (12,972)','Madre de Dios (8,734)','Tumbes (8,375)','Huancavelica (7,201)','Apurimac (5,678)','Pasco (5,638)',
 		'----CHILE----',
-		'Valparaiso (30,011)','Biobio (28,617)','Antofagasta (21,185)','Maule (18,492)','O’Higgins (18,432)','Los Lagos (13,990)','Tarapaca (12,688)','Coquimbo (12,608)','Magallanes (11,941)','Araucania (11,556)','Arica y Parinacota (9,440)','Atacama (7,765)','Nuble (7,270)','Los Rios (3,161)','Aysen (988)',
+		'Valparaiso (30,258)','Biobio (29,310)','Antofagasta (21,337)','Maule (18,797)','O’Higgins (18,610)','Los Lagos (14,688)','Tarapaca (12,852)','Coquimbo (12,663)','Araucania (12,195)','Magallanes (12,157)','Arica y Parinacota (9,560)','Atacama (7,843)','Nuble (7,410)','Los Rios (3,400)','Aysen (1,023)',
 		'------UK-----',
 		'England','Scotland','Wales',
 		'---COLOMBIA--',
