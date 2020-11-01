@@ -40,7 +40,18 @@ The plots for China, United States, Canada, Australia were modified to include a
 
 ### City
 
-A plot of the boroughs oro ther administrative divisions of avilable cities, which includes city istself as a whole to provide context.
+A plot of the boroughs or other administrative divisions of available cities, which includes the city itself as a whole to provide context. 
+
+For Johannesburg the available city data is grouped as follows:
+
+- Joburg A: Diepsloot, Kya Sands, Dainfern, Midrand, Lanseria, Fourways
+- Joburg B: Randburg, Rosebank, Emmarentia, Greenside, Melville, Mayfair, Northcliff, Parktown, Parktown North
+- Joburg C: Roodepoort, Constantia Kloof, Northgate, Florida, Bram Fishersville
+- Joburg D: Doornkop, Soweto, Dobsonville, Protea Glen
+- Joburg E: Alexandra, Wynberg, Sandton, Orange Grove, Houghton
+- Joburg F: Inner City, Johannesburg South
+- Joburg G: Orange Farm, Weilers Farm, Ennerdale, Lenasia, Eldorado Park, Protea South
+
 
 ### Locations
 
