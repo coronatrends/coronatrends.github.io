@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':280,'Ancash':280,'Apurimac':280,'Arequipa Region':280,'Australia':282,'Ayacucho':280,'Cajamarca':280,'Callao Province':280,'Canada':249,'Cusco':280,'Huancavelica':280,'Huanuco':280,'ICA':280,'Japan':203,'Junin':280,'La Libertad':280,'Lambayeque':280,'Latvia':222,'Lima':280,'Lima Province':280,'Lima Region':280,'Lithuania':263,'Loreto':280,'Madrede Dios':280,'Moquegua':280,'Nigeria':277,'Pasco':280,'Peru':280,'Piura Region':280,'Puno':280,'San Martin':280,'Spain':127,'Sydney':282,'Tacna':280,'Tumbes':280,'Ucayali':280,
+'Amazonas Region':280,'Ancash':280,'Apurimac':280,'Arequipa Region':280,'Australia':282,'Ayacucho':280,'Cajamarca':280,'Callao Province':280,'Canada':249,'Cusco':280,'England':281,'Huancavelica':280,'Huanuco':280,'ICA':280,'Japan':203,'Junin':280,'La Libertad':280,'Lambayeque':280,'Latvia':222,'Lima':280,'Lima Province':280,'Lima Region':280,'Lithuania':263,'London':281,'Loreto':280,'Madrede Dios':280,'Moquegua':280,'New Zealand':3,'Nigeria':277,'Pasco':280,'Peru':280,'Piura Region':280,'Puno':280,'San Martin':280,'Spain':127,'Sydney':282,'Tacna':280,'Tumbes':280,'Ucayali':280,'UK':281,'Wales':281,
 'default':283
 };
 
