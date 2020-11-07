@@ -1,6 +1,7 @@
 Province/State,Country/Region,Lat,Long,1/22/20
 ,Colombia,4.5709,-74.2973,0
-,Boyaca,,,149
+,Boyaca,,,151
+Boyaca,Almeida,,,1
 Boyaca,Aquitania,,,1
 Boyaca,Arcabuco,,,1
 Boyaca,Belen,,,1
@@ -75,6 +76,7 @@ Boyaca,Sachica,,,1
 Boyaca,Samaca,,,1
 Boyaca,San Jose de Pare,,,1
 Boyaca,San Luis de Gaceno,,,1
+Boyaca,San Mateo,,,1
 Boyaca,San Miguel de Sema,,,1
 Boyaca,San Pablo de Borbur,,,2
 Boyaca,Santa Maria,,,1
