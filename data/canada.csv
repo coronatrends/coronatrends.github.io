@@ -1,21 +1,21 @@
-Province/State,Country/Region,Lat,Long,1/22/20
-,Alberta,53.9333,-116.5765,0
-,British Columbia,53.7267,-127.6476,0
-,Manitoba,53.7609,-98.8139,0
-,New Brunswick,46.5653,-66.4619,0
-,Newfoundland and Labrador,53.1355,-57.6604,0
-,Northwest Territories,64.8255,-124.8457,0
-,Nova Scotia,44.682,-63.7443,0
-,Nunavut,70.2998,-83.1076,0
-,Ontario,51.2538,-85.3232,0
-,Prince Edward Island,46.5107,-63.4168,0
-,Quebec,52.9399,-73.5491,0
-,Repatriated Travellers,,,0
-,Saskatchewan,52.9399,-106.4509,0
-,Yukon,64.2823,-135.0,0
-,Canada,,,0
-,Vancouver,,,0
-,Montreal,,,0
-,Toronto,,,1
-,North America,,,1
-,World,,,557
+Province/State,Country/Region,Lat,Long,1/22/20,1/23/20,1/24/20
+,Alberta,53.9333,-116.5765,0,0,0
+,British Columbia,53.7267,-127.6476,0,0,0
+,Manitoba,53.7609,-98.8139,0,0,0
+,New Brunswick,46.5653,-66.4619,0,0,0
+,Newfoundland and Labrador,53.1355,-57.6604,0,0,0
+,Northwest Territories,64.8255,-124.8457,0,0,0
+,Nova Scotia,44.682,-63.7443,0,0,0
+,Nunavut,70.2998,-83.1076,0,0,0
+,Ontario,51.2538,-85.3232,0,0,0
+,Prince Edward Island,46.5107,-63.4168,0,0,0
+,Quebec,52.9399,-73.5491,0,0,0
+,Repatriated Travellers,,,0,0,0
+,Saskatchewan,52.9399,-106.4509,0,0,0
+,Yukon,64.2823,-135.0,0,0,0
+,Canada,,,0,0,0
+,Vancouver,,,0,0,0
+,Toronto,,,0,2,2
+,Montreal,,,0,0,0
+,North America,,,1,1,2
+,World,,,557,655,941
