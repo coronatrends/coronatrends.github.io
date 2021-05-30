@@ -581,7 +581,7 @@ window.app = new Vue({
 		regions: [
 		'Cities','Countries','Regions','ONS',
 		'---------------',
-		'London','Sydney','Johannesburg','Chicago','Mexico City','Seoul','Santiago','Lima',
+		'London','Sydney','Johannesburg','Chicago','Mexico City','Montreal','Seoul','Santiago','Lima',
 		'---------------',
 		'North America','South America','Latin America','Europe','EU','Balkans','Middle East','Africa','Asia','Oceania',
 		'---------------',
