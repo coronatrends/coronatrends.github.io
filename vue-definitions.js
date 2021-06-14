@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':508,'Ancash':508,'Antofagasta':507,'Apurimac':508,'Araucania':507,'Arequipa Region':508,'Arica Y Parinacota':507,'Atacama':507,'Ayacucho':508,'Aysen':507,'Biobio':507,'Cajamarca':508,'Callao':508,'Chile':507,'Coquimbo':507,'Cusco':508,'Huancavelica':508,'Huanuco':508,'ICA':508,'Junin':508,'La Libertad':508,'Lambayeque':508,'Lima':508,'Lima Province':508,'Lima Region':508,'Loreto':508,'Los Lagos':507,'Los Rios':507,'Madrede Dios':508,'Magallanes':507,'Maule':507,'Moquegua':508,'Nuble':507,'O Higgins':507,'Pasco':508,'Peru':508,'Piura Region':508,'Puno':508,'San Martin':508,'Santiago':507,'South Korea':508,'Tacna':508,'Tarapaca':507,'Tumbes':508,'Ucayali':508,'Valparaiso':507,'Wales':506,
+'Amazonas Region':508,'Ancash':508,'Antofagasta':507,'Apurimac':508,'Araucania':507,'Arequipa Region':508,'Arica Y Parinacota':507,'Atacama':507,'Ayacucho':508,'Aysen':507,'Biobio':507,'Cajamarca':508,'Callao':508,'Chile':507,'Coquimbo':507,'Cusco':508,'Huancavelica':508,'Huanuco':508,'ICA':508,'Junin':508,'La Libertad':508,'Lambayeque':508,'Lima':508,'Lima Province':508,'Lima Region':508,'Loreto':508,'Los Lagos':507,'Los Rios':507,'Madrede Dios':508,'Magallanes':507,'Maule':507,'Moquegua':508,'Nuble':507,'O Higgins':507,'Pasco':508,'Peru':508,'Piura Region':508,'Puno':508,'San Martin':508,'Santiago':507,'South Korea':508,'Tacna':508,'Tarapaca':507,'Tumbes':508,'Ucayali':508,'Valparaiso':507,
 'default':509
 };
 
