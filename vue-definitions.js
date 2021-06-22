@@ -2,7 +2,7 @@
 // custom graph component
 
 var point = {
-'Amazonas Region':512,'Ancash':512,'Antofagasta':514,'Apurimac':512,'Araucania':514,'Arequipa Region':512,'Arica Y Parinacota':514,'Atacama':514,'Ayacucho':512,'Aysen':514,'Biobio':514,'Cajamarca':512,'Callao':512,'Chile':514,'Coquimbo':514,'Cusco':512,'England':516,'Huancavelica':512,'Huanuco':512,'ICA':512,'Junin':512,'La Libertad':512,'Lambayeque':512,'Lima':512,'Lima Province':512,'Lima Region':512,'London':516,'Loreto':512,'Los Lagos':514,'Los Rios':514,'Madrede Dios':512,'Magallanes':514,'Maule':514,'Moquegua':512,'Nuble':514,'O Higgins':514,'Pasco':512,'Peru':512,'Piura Region':512,'Puno':512,'San Martin':512,'Santiago':514,'Saudi Arabia':516,'Tacna':512,'Tarapaca':514,'Tumbes':512,'Ucayali':512,'UK':516,'Valparaiso':514,'Wales':516,
+'Amazonas Region':512,'Ancash':512,'Antofagasta':514,'Apurimac':512,'Araucania':514,'Arequipa Region':512,'Arica Y Parinacota':514,'Atacama':514,'Ayacucho':512,'Aysen':514,'Biobio':514,'Cajamarca':512,'Callao':512,'Chile':514,'Coquimbo':514,'Cusco':512,'England':516,'Huancavelica':512,'Huanuco':512,'ICA':512,'Junin':512,'La Libertad':512,'Lambayeque':512,'Lima':512,'Lima Province':512,'Lima Region':512,'London':516,'Loreto':512,'Los Lagos':514,'Los Rios':514,'Madrede Dios':512,'Magallanes':514,'Maule':514,'Moquegua':512,'Nuble':514,'O Higgins':514,'Pasco':512,'Peru':512,'Piura Region':512,'Puno':512,'San Martin':512,'Santiago':514,'Tacna':512,'Tarapaca':514,'Tumbes':512,'Ucayali':512,'UK':516,'Valparaiso':514,'Wales':516,
 'default':517
 };
 
@@ -602,7 +602,7 @@ window.app = new Vue({
 		'--NETHERLANDS--','Zuid-Holland (402,993)','Noord-Holland (277,848)','Noord-Brabant (272,679)','Gelderland (188,720)','Limburg (115,793)','Overijssel (110,391)','Groningen (37,927)','Flevoland (36,961)','Drenthe (34,280)','Utrecht (32,950)','Zeeland (29,791)','Friesland (16,252)',
 		'-----CHILE-----','Biobio (139,224)','Valparaiso (109,340)','Maule (92,354)','Araucania (89,257)','Los Lagos (82,460)','O’Higgins (63,212)','Antofagasta (56,084)','Los Rios (43,164)','Coquimbo (42,590)','Tarapaca (38,267)','Nuble (32,917)','Magallanes (28,542)','Arica y Parinacota (24,242)','Atacama (23,526)','Aysen (7,203)',
 		'-----CANADA----','Ontario (550,084)','Quebec (374,011)','Alberta (231,419)','British Columbia (147,131)','Manitoba (55,405)','Saskatchewan (48,490)','Nova Scotia (5,791)','New Brunswick (2,318)','Newfoundland (1,383)',
-		'--SAUDI ARABIA-','Makkah Al Mukarramah (115,285)','Ar Riyad (114,753)','Eastern Region (105,433)','Al Madinah Al Munawwarah (35,658)','Aseer (33,469)','Al Qaseem (17,711)','Jazan Province (16,079)','Hail Province (9,570)','Najran Province (8,199)','Tabuk Province (7,179)','Al Bahah (5,831)','Northern Borders (4,086)','Al Jawf (2,150)',
+		'--SAUDI ARABIA-','Makkah Al Mukarramah (115,716)','Ar Riyad (115,009)','Eastern Region (105,713)','Al Madinah Al Munawwarah (35,723)','Aseer (33,618)','Al Qaseem (17,782)','Jazan Province (16,178)','Hail Province (9,594)','Najran Province (8,235)','Tabuk Province (7,205)','Al Bahah (5,857)','Northern Borders (4,097)','Al Jawf (2,155)',
 		'---------------',
 		'Locations'],
 		selectedRegion: 'Cities',
