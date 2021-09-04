@@ -602,7 +602,7 @@ window.app = new Vue({
 		'--NETHERLANDS--','Zuid-Holland (465,813)','Noord-Holland (337,311)','Noord-Brabant (309,061)','Gelderland (215,890)','Limburg (129,171)','Overijssel (126,889)','Groningen (48,337)','Flevoland (43,040)','Utrecht (41,474)','Drenthe (38,514)','Zeeland (33,527)','Friesland (16,252)',
 		'-----CHILE-----','Biobio (150,233)','Valparaiso (122,433)','Maule (101,061)','Araucania (97,814)','Los Lagos (88,409)','O’Higgins (68,198)','Antofagasta (60,539)','Los Rios (49,144)','Coquimbo (48,314)','Tarapaca (41,004)','Nuble (35,752)','Magallanes (29,239)','Atacama (27,067)','Arica y Parinacota (26,623)','Aysen (8,175)',
 		'-----CANADA----','Ontario (575,888)','Quebec (391,363)','Alberta (256,985)','British Columbia (168,325)','Manitoba (58,845)','Saskatchewan (55,396)','Nova Scotia (6,047)','New Brunswick (2,798)','Newfoundland (1,491)',
-		'----SLOVAKIA---','Kosice (98,342)','Nitra (92,802)','Bratislava (92,093)',90,440 "Trnava,'Banska Bystrica (84,173)','Zilina (14,617)','Presov (14,289)','Trencin (12,609)',4,295 ",
+		'----SLOVAKIA---','Kosice (98,342)','Nitra (92,802)','Bratislava (92,093)','Trnava (90,440)','Banska Bystrica (84,173)','Zilina (14,617)','Presov (14,289)','Trencin (12,609)',
 		'----DENMARK----','Hovedstaden (162,371)','Midtjylland (63,037)','Syddanmark (48,852)','Sjaelland (44,140)','Nordjylland (26,161)',
 		'--SAUDI ARABIA-','Ar Riyad (130,021)','Makkah Al Mukarramah (129,484)','Eastern Region (117,330)','Aseer (40,820)','Al Madinah Al Munawwarah (39,231)','Al Qaseem (21,465)','Jazan Province (20,943)','Hail Province (11,657)','Najran Province (10,584)','Tabuk Province (8,475)','Al Bahah (7,131)','Northern Borders (5,199)','Al Jawf (2,645)',
 		'---------------',
